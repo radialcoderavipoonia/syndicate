@@ -10,3 +10,24 @@
     padding-top: 12px;
     padding-bottom: 12px;
 }
+
+.rarity_card_border {
+    border: 1.26px solid;
+    border-image: linear-gradient(180deg, #FF5001 0%, #FED710 100%);
+    border-image-slice: 1;
+    position: relative;
+    border-radius: 17.34px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.03) 100%);
+    backdrop-filter: blur(31.478700637817383px);
+}
+
+.text_color_linier {
+    background: linear-gradient(#FED710, #FF5001);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.rarity_btn_buynow_px {
+    padding-left: 32px;
+    padding-right: 32px;
+}
