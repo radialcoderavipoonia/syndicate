@@ -1,7 +1,12 @@
-.gfgdsx {
-    display: block;
-}
-
 .d_none {
     display: none;
+}
+
+.btn_rarity_bg_linier {
+    background: linear-gradient(180deg, #1B1B1B 0%, #090909 100%);
+}
+
+.rarity_sec_btn_p {
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
