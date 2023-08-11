@@ -55,10 +55,10 @@
     animation: drazonhero2 1.9s linear infinite alternate;
 }
 .ani_dragons3{
-    animation: drazonhero3 2.3s linear infinite alternate;
+    animation: drazonhero3 1.5s linear infinite alternate;
 }
 .ani_dragons4{
-    animation: drazonhero4 2.7s linear infinite alternate;
+    animation: drazonhero4 1.9s linear infinite alternate;
 }
 
 @keyframes drazonhero1 {
