@@ -9,7 +9,7 @@ const WelcomeTo = () => {
           <Row className="align-items-center justify-content-lg-between justify-content-center">
             <Col xs={11} sm={10} xl={5} lg={6}>
               <div>
-                <img className="w-100" src={welcomeTo_dragon} alt="dragon" />
+                <img className="w-100" src={welcomeTo_dragon} alt="dragon"/>
               </div>
             </Col>
             <Col lg={6}>
