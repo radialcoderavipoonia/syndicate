@@ -1,3 +1,15 @@
-.egfdsws{
-    display: block;
+/* nav bar  */
+.sm_nav {
+  position: fixed;
+  z-index: 99 !important;
+  top: 100px;
+  left: -100%;
+  height: 100vh !important;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 300ms linear !important;
 }
