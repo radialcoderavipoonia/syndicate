@@ -1,10 +1,5 @@
 /* utilites classes */
-.lh_150 {
-  line-height: 150%;
-}
-.lh_174 {
-  line-height: 174%;
-}
+
 .opcity_07 {
   opacity: 0.7;
 }
@@ -17,6 +12,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .py_14 {
   padding-top: 14px;
   padding-bottom: 14px;
@@ -26,3 +22,12 @@
   padding-right: 20px;
 }
 
+@media (min-width:992px) {
+  .lh_150 {
+    line-height: 150%;
+  }
+  .lh_174 {
+    line-height: 174%;
+  }
+  
+}
