@@ -1,0 +1,24 @@
+/* ----------------------------------- Roadmap section ----------------------------- */
+.roadmap_section h3 {
+  font-family: "Agnostic";
+  font-size: var(--fs-5xl);
+  font-weight: 400;
+  background: linear-gradient(180deg, #fed710 0%, #ff5001 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.roadmap_section ul li {
+  color: #fff;
+  font-family: "Poppins";
+  font-size: var(--fs-md);
+  font-weight: 400;
+  line-height: 174%;
+}
+.roadmap_numbers_linear {
+  background: linear-gradient(180deg, #fed710 0%, #ff5001 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/*------------------------------------------ team section -------------------------------*/
