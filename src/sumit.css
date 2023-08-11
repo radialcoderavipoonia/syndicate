@@ -1,0 +1,40 @@
+/* ----------------------------------- Roadmap section ----------------------------- */
+.roadmap_section h3 {
+  font-family: "Agnostic";
+  font-size: var(--fs-5xl);
+  font-weight: 400;
+  background: linear-gradient(180deg, #fed710 0%, #ff5001 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.roadmap_section ul li {
+  color: #fff;
+  font-family: "Poppins";
+  font-size: var(--fs-md);
+  font-weight: 400;
+  line-height: 174%;
+}
+.roadmap_numbers_linear {
+  background: linear-gradient(180deg, #fed710 0%, #ff5001 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/*------------------------------------------ team section -------------------------------*/
+.team_bg {
+  background-image: url(../src/assets/images/webp/team_bg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.on_image_text {
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.team_card :hover {
+  box-shadow: 0px 4px 41px 0px rgba(254, 215, 16, 0.5);
+  backdrop-filter: blur(31.574848175048828px);
+  border-radius: 16px;
+}
+

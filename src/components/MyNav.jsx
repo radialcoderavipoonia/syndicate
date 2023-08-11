@@ -21,7 +21,7 @@ const MyNav = () => {
   }
   return (
     <>
-      <Nav className=" bg-black position-sticky top-0 w-100 z-3">
+      <Nav className=" bg-black position-fixed top-0 w-100 z-3">
         <div className="container d-flex justify-content-between align-items-center py-1">
           <div id="dis_none" >
             <img

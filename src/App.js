@@ -6,13 +6,16 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import WelcomeTo from "./components/WelcomeTo";
 import MyNav from "./components/MyNav";
 import MyHero from "./components/MyHero";
+import Roadmap from "./components/Roadmap";
+import Team from "./components/Team";
 
 function App() {
   return (
     <>
       <MyHero />
-      {/* <div className="bg-black min-vh-100"></div> */}
-      {/* <WelcomeTo /> */}
+      <WelcomeTo />
+      <Roadmap/>
+      <Team/>
     </>
   );
 }

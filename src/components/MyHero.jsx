@@ -11,7 +11,7 @@ const MyHero = () => {
     <>
       <header className="hero_bg min_vh_100_xxl d-flex flex-column position-relative overflow-hidden">
         <MyNav />
-        <section className="h-100 flex-grow-1 ">
+        <section className="h-100 flex-grow-1 pt-xl-5 mt-5 ">
           <Container className="pt-5 mt-5 ">
             <div className="pb-xl-0 pb-sm-5 mb-xl-0 mb-sm-5">
               <h1 className="text-center ff_agnostic fw-normal fs_8xl text-white pt-xl-5 mb-0">
