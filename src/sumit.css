@@ -37,4 +37,15 @@
   backdrop-filter: blur(31.574848175048828px);
   border-radius: 16px;
 }
-
+.game_play_btn {
+  bottom: -5%;
+  left: -1%;
+  width: 70px;
+}
+@media (min-width: 576px) {
+  .game_play_btn {
+    bottom: -5%;
+    left: -5%;
+    width: 140px;
+  }
+}

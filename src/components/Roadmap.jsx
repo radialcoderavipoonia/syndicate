@@ -10,7 +10,7 @@ const Roadmap = () => {
             RoadMap
           </h2>
           <Row>
-            <Col lg={6}>
+            <Col lg={5}>
               <h3 className="mb-2">Phase 1</h3>
               <ul className="ps-3">
                 <li>Project Concept</li>
@@ -21,7 +21,7 @@ const Roadmap = () => {
                 <li> Wanderfuls holders SAS NFT Airdrops</li>
               </ul>
             </Col>
-            <Col lg={6}>
+            <Col lg={7}>
               <h3 className="mb-2 pt-sm-3 pt-2">Phase 2</h3>
               <ul className="ps-3">
                 <li>NFT minting on OpenZoo</li>
@@ -90,7 +90,11 @@ const Roadmap = () => {
               </p>
             </Col>
             <Col lg={6} xl={5} sm={10} xs={11}>
-              <img src={Roadmap_dragon} alt="dragon" className="w-100" />
+              <img
+                src={Roadmap_dragon}
+                alt="dragon"
+                className="w-100 mt-3 mt-lg-0"
+              />
             </Col>
           </Row>
         </Container>
