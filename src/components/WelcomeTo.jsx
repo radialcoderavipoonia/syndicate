@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import welcomeTo_dragon from "../assets/images/webp/welcome_dragon.png";
+import welcomeTo_dragon from "../assets/images/webp/welcome_dragon.webp";
 const WelcomeTo = () => {
   return (
     <>
