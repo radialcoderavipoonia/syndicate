@@ -25,10 +25,118 @@
   pointer-events: unset;
   display: block;
 }
+
 /* hero section  */
-.hero_bg{
-    background-image: url("../src/assets/images/webp/hero_bg.webp");
-    background-position: center;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+.hero_bg {
+  background-image: url("../src/assets/images/webp/hero_bg.webp");
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.mw_941 {
+  max-width: 941px;
+}
+.dragon_height_width {
+  width: 100% !important;
+  max-width: 150px !important;
+  height: 100% !important;
+}
+.left_5 {
+  left: 10%;
+}
+.logo_not_visible{
+  opacity: 0;
+  pointer-events: none;
+}
+.ani_dragons1 {
+  animation: drazonhero1 1.5s linear infinite alternate;
+}
+.ani_dragons2{
+    animation: drazonhero2 1.9s linear infinite alternate;
+}
+.ani_dragons3{
+    animation: drazonhero3 2.3s linear infinite alternate;
+}
+.ani_dragons4{
+    animation: drazonhero4 2.7s linear infinite alternate;
+}
+
+@keyframes drazonhero1 {
+  0% {
+    transform: translateY(-10px) scale(1.1);
+  }
+  100% {
+    transform: translateY(25px) scale(0.9);
+  }
+}
+@keyframes drazonhero2 {
+  0% {
+    transform: translateY(0px)  scale(1.1);
+    
+  }
+  100% {
+    transform: translateY(25px)  scale(0.9);
+  }
+}
+@keyframes drazonhero3 {
+  0% {
+    transform: translateY(0px) scale(1.1);
+  }
+  100% {
+    transform: translateY(25px) scale(0.9);
+  }
+}
+@keyframes drazonhero4 {
+  0% {
+    transform: translateY(0px) scale(1.1);
+  }
+  100% {
+    transform: translateY(25px) scale(0.9);
+  }
+}
+@media (min-width: 576px) {
+  .dragon_height_width {
+    width: 100% !important;
+    max-width: 200px !important;
+    height: 100% !important;
+  }
+}
+@media (min-width: 1200px) {
+  .min_vh_100_xxl {
+    min-height: 100vh;
+  }
+  .dragon_height_width {
+    width: 100% !important;
+    max-width: 280px !important;
+    height: 100% !important;
+  }
+  .position_absolute {
+    position: absolute !important;
+  }
+}
+@media (min-width: 1400px) {
+  .hero_dragon1 {
+    width: 380px !important;
+    height: 453px !important;
+  }
+  .hero_dragon2 {
+    width: 280px !important;
+    height: 356px !important;
+  }
+  .hero_dragon3 {
+    width: 250px !important;
+    height: 310px !important;
+  }
+  .hero_dragon4 {
+    width: 380px !important;
+    height: 450px !important;
+  }
+  .dragon_height_width {
+    width: 100% !important;
+    max-width: 280px !important;
+    height: 100% !important;
+  }
+  .trans_70X {
+    transform: translateX(70px);
+  }
 }

@@ -7,14 +7,12 @@ import nav_logo from "../assets/images/png/page_Logo.png";
 const MyNav = () => {
   const [Show, setShow] = useState(true);
   function showNav() {
-      setShow(
-        !Show,
-        document
-          .getElementById("nav_bar_animation")
-          .classList.toggle("opennav"),
-        document.getElementById("button_ani").classList.toggle("opennav")
-      );
-  
+    setShow(
+      !Show,
+      document.getElementById("nav_bar_animation").classList.toggle("opennav"),
+      document.getElementById("button_ani").classList.toggle("opennav"),
+      document.getElementById("dis_none").classList.toggle("logo_not_visible")
+    );
   }
   if (!Show) {
     document.body.classList.add("overflow-hidden");
@@ -23,9 +21,9 @@ const MyNav = () => {
   }
   return (
     <>
-      <Nav className=" bg-black position-fixed w-100 z-3">
+      <Nav className=" bg-black position-sticky top-0 w-100 z-3">
         <div className="container d-flex justify-content-between align-items-center py-1">
-          <div className="">
+          <div id="dis_none" >
             <img
               height={92}
               width={92}
@@ -35,7 +33,7 @@ const MyNav = () => {
             />
           </div>
           <div className="d-lg-flex align-items-center d-none d-lg-block">
-            <ul className="d-flex justify-content-between align-items-center mb-0">
+            <ul className="d-flex justify-content-between list-unstyled align-items-center mb-0">
               <li className="pe-xl-4 ff_agnostic fw-normal fs_md mb-0">
                 <a href="#about" className="text-white">
                   BUY A SAS
@@ -85,7 +83,7 @@ const MyNav = () => {
           <div className={`d-flex sm_nav d-lg-none ${Show ? "" : "start-0"}`}>
             <ul
               id="nav_bar_animation"
-              className="d-flex justify-content-between flex-column gap-3 align-items-center mb-0 ps-0 nav_animation"
+              className="d-flex justify-content-between list-unstyled flex-column gap-3 align-items-center mb-0 ps-0 nav_animation"
             >
               <li className="ff_agnostic fw-normal fs_md mb-0">
                 <a href="#about" className="text-white">
@@ -118,10 +116,7 @@ const MyNav = () => {
                 </a>
               </li>
             </ul>
-            <div
-              id="button_ani"
-              className="ms-auto me-auto mt-3 nav_animation"
-            >
+            <div id="button_ani" className="ms-auto me-auto mt-3 nav_animation">
               <button className="text-white btn_bg ff_agnostic fw-normal fs_lg border-0 py_14 px_20 rounded-5">
                 connect wallet
               </button>

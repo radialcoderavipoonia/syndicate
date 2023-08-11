@@ -10,7 +10,8 @@ import MyHero from "./components/MyHero";
 function App() {
   return (
     <>
-      <MyHero/>
+      <MyHero />
+      {/* <div className="bg-black min-vh-100"></div> */}
       {/* <WelcomeTo /> */}
     </>
   );
