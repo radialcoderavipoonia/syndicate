@@ -16,14 +16,13 @@
 .nav_animation {
   transform: translateY(100px);
   pointer-events: none;
-  display: none;
+  opacity: 0;
   transition: 1000ms linear;
 }
-
 .opennav {
   transform: translateY(0px);
   pointer-events: unset;
-  display: block;
+  opacity: 1;
 }
 
 /* hero section  */
@@ -44,21 +43,21 @@
 .left_5 {
   left: 10%;
 }
-.logo_not_visible{
+.logo_not_visible {
   opacity: 0;
   pointer-events: none;
 }
 .ani_dragons1 {
   animation: drazonhero1 1.5s linear infinite alternate;
 }
-.ani_dragons2{
-    animation: drazonhero2 1.9s linear infinite alternate;
+.ani_dragons2 {
+  animation: drazonhero2 1.9s linear infinite alternate;
 }
-.ani_dragons3{
-    animation: drazonhero3 1.5s linear infinite alternate;
+.ani_dragons3 {
+  animation: drazonhero3 1.5s linear infinite alternate;
 }
-.ani_dragons4{
-    animation: drazonhero4 1.9s linear infinite alternate;
+.ani_dragons4 {
+  animation: drazonhero4 1.9s linear infinite alternate;
 }
 
 @keyframes drazonhero1 {
@@ -71,11 +70,10 @@
 }
 @keyframes drazonhero2 {
   0% {
-    transform: translateY(0px)  scale(1.1);
-    
+    transform: translateY(0px) scale(1.1);
   }
   100% {
-    transform: translateY(25px)  scale(0.9);
+    transform: translateY(25px) scale(0.9);
   }
 }
 @keyframes drazonhero3 {
