@@ -13,10 +13,10 @@ const Rarity = () => {
           <div>
             <h2 className="fw-normal fs_7xl text-white ff_agnostic text-center mb-0">
               Rarity
-            </h2>
+            </h2>-
             <div className="overflow-auto w_1200 start-0">
               <div className="d-flex align-items-center justify-content-center mt-4 mt-lg-5 ">
-                <div className="py-2">
+                <div className="py-2 me-1">
                   <button
                     onClick={() => {
                       setactive(1);
@@ -30,7 +30,7 @@ const Rarity = () => {
                     Background
                   </button>
                 </div>
-                <div className="ms-4 ps-1">
+                <div className="ms-4 ps-1 me-1">
                   <button
                     onClick={() => {
                       setactive(2);
@@ -44,22 +44,22 @@ const Rarity = () => {
                     Accessories
                   </button>
                 </div>
-                <div className="ms-4 ps-1">
+                <div className="ms-4 ps-1 me-1">
                   <button className="rounded-5 border-0 rarity_sec_btn_p px-4 btn_rarity_bg_linier text-white ff_agnostic fs_lg fw-normal">
                     Clothes
                   </button>
                 </div>
-                <div className="ms-4 ps-1">
+                <div className="ms-4 ps-1 me-1">
                   <button className="rounded-5 border-0 rarity_sec_btn_p px-4 btn_rarity_bg_linier text-white ff_agnostic fs_lg fw-normal">
                     Mouths
                   </button>
                 </div>
-                <div className="ms-4 ps-1">
+                <div className="ms-4 ps-1 me-1">
                   <button className="rounded-5 border-0 rarity_sec_btn_p px-4 btn_rarity_bg_linier text-white ff_agnostic fs_lg fw-normal">
                     Skins
                   </button>
                 </div>
-                <div className="ms-4 ps-1">
+                <div className="ms-4 ps-1 me-1">
                   <button className="rounded-5 border-0 rarity_sec_btn_p px-4 btn_rarity_bg_linier text-white ff_agnostic fs_lg fw-normal">
                     Head
                   </button>

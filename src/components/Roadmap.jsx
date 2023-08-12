@@ -13,7 +13,7 @@ const Roadmap = () => {
           <Row>
             <Col lg={5}>
               <h3 className="mb-2">Phase 1</h3>
-              <ul className="ps-3">
+              <ul className="ps-3 mb-0">
                 <li>Project Concept</li>
                 <li> Official Name - Small Arms Syndicate</li>
                 <li>Development of NFT art work</li>
@@ -24,7 +24,7 @@ const Roadmap = () => {
             </Col>
             <Col lg={7}>
               <h3 className="mb-2 pt-sm-3 pt-2">Phase 2</h3>
-              <ul className="ps-3">
+              <ul className="ps-3 mb-0">
                 <li>NFT minting on OpenZoo</li>
                 <li> Community development</li>
                 <li>Grow Small Arms Syndicates development team</li>
