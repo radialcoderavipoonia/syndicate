@@ -11,6 +11,7 @@ import Team from "./components/Team";
 import Rarity from "./components/Rarity";
 import RoyaltyStash from "./components/RoyaltyStash";
 import Game from "./components/Game";
+import MyFooter from "./components/MyFooter";
 
 function App() {
   return (
@@ -21,8 +22,8 @@ function App() {
       <Team />
       <Rarity />
       <RoyaltyStash/>
-      <Team/>
       <Game />
+      <MyFooter/>
     </div>
   );
 }

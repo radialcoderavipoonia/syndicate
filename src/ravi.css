@@ -138,3 +138,13 @@
     transform: translateX(70px);
   }
 }
+/* footer  */
+.icon_hover:hover {
+    box-shadow: 0 0 20px 5px #fed110;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+.icon_hover {
+    border-radius: 50%;
+    transition: all .3s ease-in-out;
+}

@@ -13,29 +13,47 @@ const Team = () => {
           </h2>
           <Row className="justify-content-center">
             <Col lg={4} md={6}>
-              <div className="position-relative team_card transition_3s">
-                <img className="w-100" src={dragon1} alt="dragon" />
+              <div className="position-relative ">
+                <div className="team_card transition_3s">
+                  <img className="w-100 " src={dragon1} alt="dragon" />
+                </div>
                 <div className="position-absolute on_image_text">
-                  <h4 className="ff_agnostic fs_4xl fw-normal text-white text-center white_s_nowrap">Omar Gouse</h4>
-                  <p className="ff_poppins text-white fw-normal fs_md text-center">(CEO)</p>
+                  <h4 className="ff_agnostic fs_4xl fw-normal text-white text-center white_s_nowrap">
+                    Omar Gouse
+                  </h4>
+                  <p className="ff_poppins text-white fw-normal fs_md text-center">
+                    (CEO)
+                  </p>
                 </div>
               </div>
             </Col>
             <Col lg={4} md={6}>
-              <div className="position-relative team_card transition_3s pt-3 pt-md-0">
-                <img className="w-100" src={dragon2} alt="dragon" />
+              <div className="position-relative pt-3 pt-md-0">
+                <div className="team_card transition_3s">
+                  <img className="w-100 " src={dragon2} alt="dragon" />
+                </div>
                 <div className="position-absolute on_image_text">
-                  <h4 className="ff_agnostic fs_4xl fw-normal text-white text-center white_s_nowrap">Omar Gouse</h4>
-                  <p className="ff_poppins text-white fw-normal fs_md text-center">(CEO)</p>
+                  <h4 className="ff_agnostic fs_4xl fw-normal text-white text-center white_s_nowrap">
+                    Omar Gouse
+                  </h4>
+                  <p className="ff_poppins text-white fw-normal fs_md text-center">
+                    (CEO)
+                  </p>
                 </div>
               </div>
             </Col>
             <Col lg={4} md={6}>
-              <div className="position-relative team_card transition_3s pt-3 pt-lg-0">
-                <img className="w-100" src={dragon3} alt="dragon" />
+              <div className="position-relative pt-3 pt-lg-0">
+                <div className="team_card transition_3s">
+                  <img className="w-100 " src={dragon3} alt="dragon" />
+                </div>
                 <div className="position-absolute on_image_text">
-                  <h4 className="ff_agnostic fs_4xl fw-normal text-white text-center white_s_nowrap">Omar Gouse</h4>
-                  <p className="ff_poppins text-white fw-normal fs_md text-center">(CEO)</p>
+                  <h4 className="ff_agnostic fs_4xl fw-normal text-white text-center white_s_nowrap">
+                    Omar Gouse
+                  </h4>
+                  <p className="ff_poppins text-white fw-normal fs_md text-center">
+                    (CEO)
+                  </p>
                 </div>
               </div>
             </Col>
