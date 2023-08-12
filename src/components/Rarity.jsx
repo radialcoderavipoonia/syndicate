@@ -13,8 +13,8 @@ const Rarity = () => {
             <h2 className="fw-normal fs_7xl text-white ff_agnostic text-center mb-0">
               Rarity
             </h2>
-            <div className="overflow-auto w_1200 start-0">
-              <div className="d-flex align-items-center justify-content-center mt-4 mt-lg-5 ">
+            <div className="overflow-auto w_1200 start-0 position-relative">
+              <div className="d-flex align-items-center justify-content-xl-center mt-4 mt-lg-5 ">
                 <div>
                   <button
                     onClick={() => {
