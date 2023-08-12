@@ -13,7 +13,7 @@ const Team = () => {
             Team
           </h2>
           <Row className="justify-content-center">
-            <Col lg={4} md={6}>
+            <Col lg={4} md={6} data-aos="fade-right"data-aos-duration="2000">
               <div className="position-relative">
                 <div className="team_card transition_3s">
                   <img className="w-100" src={dragon1} alt="dragon" />
@@ -28,7 +28,7 @@ const Team = () => {
                 </div>
               </div>
             </Col>
-            <Col lg={4} md={6}>
+            <Col lg={4} md={6} data-aos="fade-up"data-aos-duration="2000">
               <div className="position-relative pt-3 pt-md-0">
                 <div className="team_card transition_3s">
                   <img className="w-100" src={dragon2} alt="dragon" />
@@ -43,7 +43,7 @@ const Team = () => {
                 </div>
               </div>
             </Col>
-            <Col lg={4} md={6}>
+            <Col lg={4} md={6} data-aos="fade-left"data-aos-duration="2000">
               <div className="position-relative pt-3 pt-lg-0">
                 <div className="team_card transition_3s">
                   <img className="w-100" src={dragon3} alt="dragon" />

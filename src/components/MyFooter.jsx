@@ -11,7 +11,7 @@ const MyFooter = () => {
   return (
     <>
       <section className="pt-5 position-relative overflow-hidden">
-        <Container className="pt-5">
+        <Container className="pt-5" data-aos="zoom-in-down"data-aos-duration="2000">
           <div className="text-center">
             <a href="#">
               <img

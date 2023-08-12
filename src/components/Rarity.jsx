@@ -11,7 +11,7 @@ const Rarity = () => {
       <section id="rarity" className="py-5 position-relative">
         <Container>
           <div>
-            <h2 className="fw-normal fs_7xl text-white ff_agnostic text-center mb-0">
+            <h2 className="fw-normal fs_7xl text-white ff_agnostic text-center mb-0" data-aos="fade-up"data-aos-duration="2000">
               Rarity
             </h2>-
             <div className="overflow-auto w_1200 start-0">
@@ -74,7 +74,7 @@ const Rarity = () => {
             <Row className="mt-3 mt-lg-5 pt-md-2">
               {RatCard.map((Raritycard) => {
                 return (
-                  <Col
+                  <Col data-aos="fade-up"data-aos-duration="2000"
                     sm={11}
                     md={6}
                     xl={4}
@@ -117,7 +117,7 @@ const Rarity = () => {
               })}
               {ActiveCard.map((Focus) => {
                 return (
-                  <Col
+                  <Col data-aos="fade-up"data-aos-duration="2000"
                     md={6}
                     xl={4}
                     key={Focus.id}
