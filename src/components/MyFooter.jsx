@@ -4,7 +4,7 @@ import footerlogo from "../assets/images/png/page_Logo.png";
 import twitter_icon from "../assets/images/png/twitter_icon.png";
 import discord_icon from "../assets/images/png/discord_icon.png";
 import boat_icon from "../assets/images/png/boat_icon.png";
-import footer_left_drazon from "../assets/images/webp/footer_left_dragon.webp"
+import footer_left_drazon from "../assets/images/webp/footer_left_dragon.webp";
 import footer_right_drazon from "../assets/images/webp/footer_right_dragon.webp";
 
 const MyFooter = () => {
@@ -51,11 +51,19 @@ const MyFooter = () => {
             </div>
           </div>
         </Container>
-        <div className="position-absolute bottom-0 start-0 ani_dragons2">
-          <img src={footer_left_drazon} alt="footer_left_drazon" />
+        <div className="position-absolute bottom-0 start-0 d-none d-sm-block ani_dragons2">
+          <img
+            src={footer_left_drazon}
+            alt="footer_left_drazon "
+            className="h_w_dragon_footer"
+          />
         </div>
-        <div className="position-absolute bottom-0 end-0 ani_dragons4">
-          <img src={footer_right_drazon} alt="footer_right_drazon" />
+        <div className="position-absolute bottom-0 end-0 d-none d-sm-block ani_dragons4">
+          <img
+            src={footer_right_drazon}
+            alt="footer_right_drazon "
+            className="h_w_dragon_footer"
+          />
         </div>
       </section>
     </>
