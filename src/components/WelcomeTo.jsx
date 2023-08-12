@@ -7,12 +7,12 @@ const WelcomeTo = () => {
       <section id="buy" className="bg-black py-5">
         <Container>
           <Row className="align-items-center justify-content-lg-between justify-content-center">
-            <Col xs={11} sm={10} xl={5} lg={6}>
+            <Col xs={11} sm={10} xl={5} lg={6} data-aos="fade-right" data-aos-duration="2000">
               <div>
                 <img className="w-100" src={welcomeTo_dragon} alt="dragon" />
               </div>
             </Col>
-            <Col lg={6}>
+            <Col lg={6} data-aos="fade-left" data-aos-duration="2000">
               <h2 className="text-center text-sm-start text-white ff_agnostic fs_6xl mb-0 fw-normal py-lg-0 py-md-4 py-sm-3 py-2">
                 Welcome to 
                 <span className="welcome_heading fs_7xl d-xxl-block ps-2 ms-1 ps-xxl-0 ms-xxl-0">

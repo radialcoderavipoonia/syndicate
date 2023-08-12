@@ -10,7 +10,7 @@ const Roadmap = () => {
             RoadMap
           </h2>
           <Row>
-            <Col lg={5}>
+            <Col lg={5} data-aos="fade-right"data-aos-duration="1500" >
               <h3 className="mb-2">Phase 1</h3>
               <ul className="ps-3">
                 <li>Project Concept</li>
@@ -21,7 +21,7 @@ const Roadmap = () => {
                 <li> Wanderfuls holders SAS NFT Airdrops</li>
               </ul>
             </Col>
-            <Col lg={7}>
+            <Col lg={7} data-aos="fade-left"data-aos-duration="1800">
               <h3 className="mb-2 pt-sm-3 pt-2">Phase 2</h3>
               <ul className="ps-3">
                 <li>NFT minting on OpenZoo</li>
@@ -35,7 +35,7 @@ const Roadmap = () => {
             </Col>
           </Row>
           <Row className="pt-lg-5 pt-sm-3 pt-2 pt-3 mt-xxl-3 justify-content-lg-between justify-content-center">
-            <Col lg={6}>
+            <Col lg={6} data-aos="fade-right"data-aos-duration="2000">
               <h3 className="mb-2">Phase 3 (Funding Plans)</h3>
               <p className="ff_poppins fw-normal fs_md lh_174 mb-0 text-white pb-4">
                 Phase 3 will be activated as we find new homes for our Small
@@ -89,7 +89,7 @@ const Roadmap = () => {
                 - TBA - Stay tuned!
               </p>
             </Col>
-            <Col lg={6} xl={5} sm={10} xs={11}>
+            <Col lg={6} xl={5} sm={10} xs={11} data-aos="fade-left"data-aos-duration="2200">
               <img
                 src={Roadmap_dragon}
                 alt="dragon"
