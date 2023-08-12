@@ -22,27 +22,33 @@ const MyFooter = () => {
               />
             </a>
             <div className="d-flex justify-content-center align-items-center py-5">
-              <img
-                height={47}
-                width={47}
-                src={twitter_icon}
-                alt="twitter_icon_footer"
-                className="mx-2 icon_hover"
-              />
-              <img
-                height={47}
-                width={47}
-                src={discord_icon}
-                alt="discord_icon_footer"
-                className="mx-2 icon_hover"
-              />
-              <img
-                height={47}
-                width={47}
-                src={boat_icon}
-                alt="boat_icon_footer"
-                className="mx-2 icon_hover"
-              />
+              <a href="https://twitter.com/">
+                <img
+                  height={47}
+                  width={47}
+                  src={twitter_icon}
+                  alt="twitter_icon_footer"
+                  className="mx-2 icon_hover"
+                />
+              </a>
+              <a href="https://discord.com/">
+                <img
+                  height={47}
+                  width={47}
+                  src={discord_icon}
+                  alt="discord_icon_footer"
+                  className="mx-2 icon_hover"
+                />
+              </a>
+              <a href="">
+                <img
+                  height={47}
+                  width={47}
+                  src={boat_icon}
+                  alt="boat_icon_footer"
+                  className="mx-2 icon_hover"
+                />
+              </a>
             </div>
             <div className="py-4">
               <p className="text-center text-white ff_poppins fs_sm fw-normal opcity_07">
