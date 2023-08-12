@@ -9,10 +9,14 @@ import MyHero from "./components/MyHero";
 import Roadmap from "./components/Roadmap";
 import Team from "./components/Team";
 import Game from "./components/Game";
+import Preloader from "./components/Preloader";
+import BackToTop from "./components/BackToTop";
 
 function App() {
   return (
     <>
+    <BackToTop/>
+    <Preloader/>
       <MyHero />
       <WelcomeTo />
       <Roadmap/>
