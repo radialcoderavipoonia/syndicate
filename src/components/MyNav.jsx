@@ -24,13 +24,15 @@ const MyNav = () => {
       <Nav className=" bg-black position-fixed top-0 w-100 z-3">
         <div className="container d-flex justify-content-between align-items-center py-1">
           <div id="dis_none">
-            <img
-              height={92}
-              width={92}
-              src={nav_logo}
-              alt="page logo"
-              className="w-100"
-            />
+            <a href="#">
+              <img
+                height={92}
+                width={92}
+                src={nav_logo}
+                alt="page logo"
+                className="w-100"
+              />
+            </a>
           </div>
           <div className="d-lg-flex align-items-center d-none d-lg-block">
             <ul className="d-flex justify-content-between list-unstyled align-items-center mb-0">
