@@ -23,7 +23,7 @@ const MyNav = () => {
     <>
       <Nav className=" bg-black position-fixed top-0 w-100 z-3">
         <div className="container d-flex justify-content-between align-items-center py-1">
-          <div id="dis_none" >
+          <div id="dis_none">
             <img
               height={92}
               width={92}
@@ -116,7 +116,10 @@ const MyNav = () => {
                 </a>
               </li>
             </ul>
-            <div id="button_ani" className="ms-auto me-auto mt-3 nav_animation">
+            <div
+              id="button_ani"
+              className="ms-auto me-auto mt-3 button_animation"
+            >
               <button className="text-white btn_bg ff_agnostic fw-normal fs_lg border-0 py_14 px_20 rounded-5">
                 connect wallet
               </button>
