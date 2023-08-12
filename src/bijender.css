@@ -5,12 +5,12 @@
 
 .btn_rarity_bg_linier {
     background: linear-gradient(180deg, #1B1B1B 0%, #090909 100%);
-    transition: .3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 .btn_rarity_bg_linier_2 {
     background: linear-gradient(180deg, #1B1B1B 0%, #090909 100%);
-    transition: .3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 .btn_rarity_bg_linier:hover {
@@ -84,14 +84,56 @@
 .royalti_tatto_img_1_width {
     max-width: 280px;
 }
-.royalti_tatto_img_2_width{
+
+.royalti_tatto_img_2_width {
     max-width: 246px;
 }
-.royalti_tatto_img_3_width{
+
+.royalti_tatto_img_3_width {
     max-width: 265px;
 }
-.royalty_left_box{
-    left: -5%;
+
+.royalty_left_box {
+    left: -10%;
     bottom: -30px;
-    max-width: 200px;
+    max-width: 100px;
+}
+
+.royalty_right_box {
+    right: -5%;
+    bottom: -40px;
+    max-width: 90px;
+}
+
+@media (min-width:991.98px) {
+    .royalty_left_box {
+        left: -5%;
+        max-width: 140px;
+    }
+
+    .royalty_right_box {
+        right: -5%;
+        max-width: 160px;
+    }
+}
+
+@media (min-width:1199.98px) {
+    .royalty_left_box {
+        left: -3%;
+        max-width: 200px;
+    }
+    .royalty_right_box {
+        right: -4%;
+        max-width: 180px;
+    }
+}
+@media (min-width:1399.98px) {
+    .royalty_right_box {
+        right: -10%;
+        max-width: 300px;
+    }
+    .royalty_left_box {
+        left: -7%;
+        max-width: 250px;
+    }
 }

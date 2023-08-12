@@ -8,13 +8,14 @@ import Box_2 from "../assets/images/png/royality_img_right_box.png"
 const RoyaltyStash = () => {
   return (
     <>
-      <section className="py-5 royalty_stash_bg_img">
+      <section className="py-5 royalty_stash_bg_img overflow-hidden mt-5">
         <Container className=" mt-5 pt-lg-5">
           <h2 className="fw-normal text-center ff_agnostic fs_8xl text-white pt-xl-4">
             Royalty Stash
           </h2>
           <div className="royalti_stash_linier_bg mx-auto mt-5 position-relative">
-            <img className="position-absolute royalty_left_box" src={Box_2} alt="Box_1" />
+            <img className="position-absolute royalty_left_box d-none d-md-block" src={Box_2} alt="Box_1" />
+            <img className="position-absolute royalty_right_box d-none d-md-block" src={Box_1} alt="Box_1" />
             <div className="text-center pt-4 mt-2 px-3 px-lg-5">
               <p className="ff_poppins fw-normal fs_2xl lh_174 text-white mb-0">
                 We charge a 8% royalty fee for every Small Arms Syndicate NFT
