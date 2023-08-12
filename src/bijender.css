@@ -80,3 +80,18 @@
     backdrop-filter: blur(27.21642303466797px);
     max-width: 1136px;
 }
+
+.royalti_tatto_img_1_width {
+    max-width: 280px;
+}
+.royalti_tatto_img_2_width{
+    max-width: 246px;
+}
+.royalti_tatto_img_3_width{
+    max-width: 265px;
+}
+.royalty_left_box{
+    left: -5%;
+    bottom: -30px;
+    max-width: 200px;
+}
