@@ -12,18 +12,22 @@ import Rarity from "./components/Rarity";
 import RoyaltyStash from "./components/RoyaltyStash";
 import Game from "./components/Game";
 import MyFooter from "./components/MyFooter";
+import BackToTop from "./components/BackToTop";
+import Preloader from "./components/Preloader";
 
 function App() {
   return (
     <div className="bg-black">
+      <Preloader />
+      <BackToTop />
       <MyHero />
       <WelcomeTo />
-      <Roadmap/>
+      <Roadmap />
       <Team />
       <Rarity />
-      <RoyaltyStash/>
+      <RoyaltyStash />
       <Game />
-      <MyFooter/>
+      <MyFooter />
     </div>
   );
 }
