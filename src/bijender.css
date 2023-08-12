@@ -63,3 +63,10 @@
 ::-webkit-scrollbar {
     display: none;
 }
+
+/*----------- royalty stash section --------------------*/
+.royalty_stash_bg_img {
+    background-image: url(./assets/images/png/royalty_stash_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
