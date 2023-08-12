@@ -4,7 +4,7 @@ import welcomeTo_dragon from "../assets/images/webp/welcome_dragon.webp";
 const WelcomeTo = () => {
   return (
     <>
-      <section className="bg-black py-5">
+      <section id="buy" className="bg-black py-5">
         <Container>
           <Row className="align-items-center justify-content-lg-between justify-content-center">
             <Col xs={11} sm={10} xl={5} lg={6}>

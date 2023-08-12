@@ -24,6 +24,9 @@
   pointer-events: unset;
   opacity: 1;
 }
+.shadow{
+ box-shadow: 10px 10px 10px 10px rgba(255, 174, 1, 1);
+}
 
 /* hero section  */
 .hero_bg {

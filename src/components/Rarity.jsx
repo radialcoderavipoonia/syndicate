@@ -7,7 +7,7 @@ const Rarity = () => {
   const [active, setactive] = useState(1);
   return (
     <>
-      <section className="py-5">
+      <section id="rarity" className="py-5">
         <Container>
           <div>
             <h2 className="fw-normal fs_7xl text-white ff_agnostic text-center mb-0">

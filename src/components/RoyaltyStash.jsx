@@ -8,7 +8,7 @@ import Box_2 from "../assets/images/png/royality_img_right_box.png"
 const RoyaltyStash = () => {
   return (
     <>
-      <section className="py-5 royalty_stash_bg_img overflow-hidden mt-5">
+      <section id="stash" className="py-5 royalty_stash_bg_img overflow-hidden mt-5">
         <Container className=" mt-5 pt-lg-5">
           <h2 className="fw-normal text-center ff_agnostic fs_8xl text-white pt-xl-4">
             Royalty Stash
