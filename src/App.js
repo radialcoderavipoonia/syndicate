@@ -16,7 +16,7 @@ import Preloader from "./components/Preloader";
 
 function App() {
   return (
-    <div className="bg-black">
+    <div className="bg-black overflow-hidden">
       <Preloader />
       <BackToTop />
       <MyHero />

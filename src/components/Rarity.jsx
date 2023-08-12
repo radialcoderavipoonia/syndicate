@@ -3,11 +3,12 @@ import { Row } from "react-bootstrap";
 import { Col, Container } from "react-bootstrap/esm";
 import { RatCard } from "./common/Helper";
 import { ActiveCard } from "./common/Helper";
+import side_circle from "../assets/images/png/side_circle_img.png"
 const Rarity = () => {
   const [active, setactive] = useState(1);
   return (
     <>
-      <section id="rarity" className="py-5">
+      <section id="rarity" className="py-5 position-relative">
         <Container>
           <div>
             <h2 className="fw-normal fs_7xl text-white ff_agnostic text-center mb-0">
@@ -15,14 +16,14 @@ const Rarity = () => {
             </h2>
             <div className="overflow-auto w_1200 start-0">
               <div className="d-flex align-items-center justify-content-center mt-4 mt-lg-5 ">
-                <div>
+                <div className="py-2">
                   <button
                     onClick={() => {
                       setactive(1);
                     }}
                     className={
                       active === 1
-                        ? "rounded-5 border-0 rarity_sec_btn_p  px-4 btn_bg text-white ff_agnostic fs_lg fw-normal"
+                        ? "rounded-5 border-0 rarity_sec_btn_p px-4 btn_bg text-white ff_agnostic fs_lg fw-normal"
                         : "rounded-5 border-0 rarity_sec_btn_p  px-4 btn_rarity_bg_linier_2 text-white ff_agnostic fs_lg fw-normal"
                     }
                   >
@@ -84,7 +85,7 @@ const Rarity = () => {
                         : "mt-4 pt-2 pb-1 d-none mx-auto mx-md-0"
                     }
                   >
-                    <div className="rarity_card_border ">
+                    <div className="rarity_card_border">
                       <div className="p-4 m-1">
                         <img
                           className="w-100"
@@ -164,6 +165,28 @@ const Rarity = () => {
             </div>
           </div>
         </Container>
+        <div className="position-absolute top_35 left_-5 d-xxl-block d-none circle_spin">
+          <img
+            height={201}
+            width={201}
+            src={side_circle}
+            alt="side_circle_img"
+          />
+        </div>
+        <div className="position-absolute top_35 left_-5 d-xxl-block d-none circle_ani">
+          <div className="bg_side_circle"></div>
+        </div>
+        <div className="position-absolute bottom-0 d-lg-block d-none right_-5 circle_spin">
+          <img
+            height={201}
+            width={201}
+            src={side_circle}
+            alt="side_circle_img"
+          />
+        </div>
+        <div className="position-absolute bottom-0 right_-5 d-lg-block d-none circle_ani">
+          <div className="bg_side_circle"></div>
+        </div>
       </section>
     </>
   );

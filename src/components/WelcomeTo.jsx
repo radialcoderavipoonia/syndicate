@@ -1,20 +1,21 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import welcomeTo_dragon from "../assets/images/webp/welcome_dragon.webp";
+import side_circle from "../assets/images/png/side_circle_img.png";
 const WelcomeTo = () => {
   return (
     <>
-      <section id="buy" className="bg-black py-5">
+      <section id="buy" className="py-5 position-relative">
         <Container>
           <Row className="align-items-center justify-content-lg-between justify-content-center">
             <Col xs={11} sm={10} xl={5} lg={6}>
-              <div>
+              <div className="position-relative z-1">
                 <img className="w-100" src={welcomeTo_dragon} alt="dragon" />
               </div>
             </Col>
             <Col lg={6}>
               <h2 className="text-center text-sm-start text-white ff_agnostic fs_6xl mb-0 fw-normal py-lg-0 py-md-4 py-sm-3 py-2">
-                Welcome to 
+                Welcome to
                 <span className="welcome_heading fs_7xl d-xxl-block ps-2 ms-1 ps-xxl-0 ms-xxl-0">
                   Small Arms Syndicate
                 </span>
@@ -38,6 +39,28 @@ const WelcomeTo = () => {
             </Col>
           </Row>
         </Container>
+        <div className="position-absolute top-0 d-md-block d-none left_-5 circle_spin">
+          <img
+            height={201}
+            width={201}
+            src={side_circle}
+            alt="side_circle_img"
+          />
+        </div>
+        <div className="position-absolute top-0 left_-5 d-md-block d-none circle_ani">
+          <div className="bg_side_circle"></div>
+        </div>
+        <div className="position-absolute bottom_-20 d-lg-block d-none right_-5 circle_spin">
+          <img
+            height={201}
+            width={201}
+            src={side_circle}
+            alt="side_circle_img"
+          />
+        </div>
+        <div className="position-absolute bottom_-20 d-lg-block d-none right_-5 circle_ani">
+          <div className="bg_side_circle"></div>
+        </div>
       </section>
     </>
   );

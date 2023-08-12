@@ -2,7 +2,7 @@ import { React, useState } from "react";
 import { HiMenuAlt1 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
 import { Nav } from "react-bootstrap";
-import nav_logo from "../assets/images/png/page_Logo.png";
+import nav_logo from "../assets/images/webp/page_Logo.webp";
 
 const MyNav = () => {
   const [Show, setShow] = useState(true);
@@ -87,33 +87,51 @@ const MyNav = () => {
               id="nav_bar_animation"
               className="d-flex justify-content-between list-unstyled flex-column gap-3 align-items-center mb-0 ps-0 nav_animation"
             >
-              <li className="ff_agnostic fw-normal fs_md mb-0">
-                <a href="#about" className="text-white">
+              <li
+                onClick={showNav}
+                className="ff_agnostic fw-normal fs_md mb-0"
+              >
+                <a href="#buy" className="text-white">
                   BUY A SAS
                 </a>
               </li>
-              <li className="ff_agnostic fw-normal fs_md mb-0">
-                <a href="#feature" className="text-white">
+              <li
+                onClick={showNav}
+                className="ff_agnostic fw-normal fs_md mb-0"
+              >
+                <a href="#roadmap" className="text-white">
                   RoadMap
                 </a>
               </li>
-              <li className="ff_agnostic fw-normal fs_md mb-0">
-                <a href="#plans" className="text-white">
+              <li
+                onClick={showNav}
+                className="ff_agnostic fw-normal fs_md mb-0"
+              >
+                <a href="#team" className="text-white">
                   team
                 </a>
               </li>
-              <li className="ff_agnostic fw-normal fs_md mb-0">
-                <a href="#support" className="text-white">
+              <li
+                onClick={showNav}
+                className="ff_agnostic fw-normal fs_md mb-0"
+              >
+                <a href="#rarity" className="text-white">
                   Rarity
                 </a>
               </li>
-              <li className="ff_agnostic fw-normal fs_md mb-0">
-                <a href="#faqs" className="text-white">
+              <li
+                onClick={showNav}
+                className="ff_agnostic fw-normal fs_md mb-0"
+              >
+                <a href="#stash" className="text-white">
                   Stash
                 </a>
               </li>
-              <li className="ff_agnostic fw-normal fs_md mb-0">
-                <a href="#faqs" className="text-white">
+              <li
+                onClick={showNav}
+                className="ff_agnostic fw-normal fs_md mb-0"
+              >
+                <a href="#game" className="text-white">
                   Syndicate Game
                 </a>
               </li>

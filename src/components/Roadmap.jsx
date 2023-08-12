@@ -1,10 +1,11 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Roadmap_dragon from "../assets/images/webp/roadmap_img.webp";
+import side_circle from "../assets/images/png/side_circle_img.png"
 const Roadmap = () => {
   return (
     <>
-      <section id="roadmap" className="roadmap_section bg-black py-5 f-g">
+      <section id="roadmap" className="roadmap_section py-5 position-relative">
         <Container>
           <h2 className="ff_agnostic text-white fs_7xl fw-normal pb-5 mb-xxl-4 text-center text-lg-start">
             RoadMap
@@ -93,11 +94,22 @@ const Roadmap = () => {
               <img
                 src={Roadmap_dragon}
                 alt="dragon"
-                className="w-100 mt-3 mt-lg-0"
+                className="w-100 mt-3 mt-lg-0 position-relative z-1"
               />
             </Col>
           </Row>
         </Container>
+        <div className="position-absolute top_35 d-xxl-block d-none left_-4 circle_spin">
+          <img
+            height={201}
+            width={201}
+            src={side_circle}
+            alt="side_circle_img"
+          />
+        </div>
+        <div className="position-absolute top_35 left_-4 d-xxl-block d-none circle_ani">
+          <div className="bg_side_circle"></div>
+        </div>
       </section>
     </>
   );

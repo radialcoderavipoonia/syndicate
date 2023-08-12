@@ -34,6 +34,7 @@
   );
   backdrop-filter: blur(31.478700637817383px);
   background-origin: border-box;
+  z-index: 1;
   /* background-clip: content-box, border-box; */
 }
 
@@ -71,7 +72,7 @@
 
 /*----------- royalty stash section --------------------*/
 .royalty_stash_bg_img {
-  background-image: url(./assets/images/png/royalty_stash_bg.png);
+  background-image: url(./assets/images/webp//royaltystay_bg.webp);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -80,7 +81,6 @@
   border: 1.26px solid;
   border-image: linear-gradient(180deg, #ff5001 0%, #fed710 100%);
   border-image-slice: 1;
-  /* border-radius: 14.992px; */
   background-image: linear-gradient(
     135deg,
     rgba(255, 255, 255, 0.1) 0%,
