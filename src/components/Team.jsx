@@ -6,8 +6,13 @@ import dragon3 from"../assets/images/webp/team_3_dragon.webp";
 const Team = () => {
   return (
     <>
+<<<<<<< HEAD
       <section className="team_bg py-5 position-relative team_section">
         <Container className="py-5">
+=======
+      <section id="team" className="team_bg py-5">
+        <Container>
+>>>>>>> 78c5c85f66eafe7a3620460610c809a96cf6b1f9
           <h2 className="ff_agnostic text-white mb-xxl-5 pb-lg-5 pb-4 fs_6xl fw-normal text-center">
             Team
           </h2>

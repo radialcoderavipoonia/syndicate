@@ -24,16 +24,17 @@
 
 .rarity_card_border {
   border: 1.26px solid;
-  border-image: linear-gradient(180deg, #ff5001 0%, #fed710 100%);
-  border-image-slice: 1;
+  border-image: linear-gradient(180deg, #ff5001 0%, #fed710 100%) 1;
   position: relative;
   border-radius: 17.34px;
-  background: linear-gradient(
+  background-image: linear-gradient(
     135deg,
     rgba(255, 255, 255, 0.1) 0%,
     rgba(255, 255, 255, 0.03) 100%
   );
   backdrop-filter: blur(31.478700637817383px);
+  background-origin: border-box;
+  /* background-clip: content-box, border-box; */
 }
 
 .rarity_card_border:hover {

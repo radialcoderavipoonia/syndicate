@@ -5,7 +5,7 @@ import play_btn from "../assets/images/webp/play_btn.webp"
 const Game = () => {
   return (
     <>
-      <section className="py-5 bg-black">
+      <section id="game" className="py-5 bg-black">
         <Container>
           <Row className="align-items-center justify-content-center">
             <Col lg={6}>

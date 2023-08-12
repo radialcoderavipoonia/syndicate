@@ -4,7 +4,7 @@ import Roadmap_dragon from "../assets/images/webp/roadmap_img.webp";
 const Roadmap = () => {
   return (
     <>
-      <section className="roadmap_section bg-black py-5 f-g">
+      <section id="roadmap" className="roadmap_section bg-black py-5 f-g">
         <Container>
           <h2 className="ff_agnostic text-white fs_7xl fw-normal pb-5 mb-xxl-4 text-center text-lg-start">
             RoadMap
