@@ -34,7 +34,6 @@
 }
 .team_card :hover {
   box-shadow: 0px 4px 41px 0px rgba(254, 215, 16, 0.5);
-  backdrop-filter: blur(31.574848175048828px);
   border-radius: 16px;
 }
 .game_play_btn {
@@ -49,3 +48,58 @@
     width: 140px;
   }
 }
+
+/*------------------------------------ preloader ----------------*/
+.z_index_50 {
+  z-index: 50;
+}
+.animation_preloader {
+  animation: spin 4s ease infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(180deg);
+  }
+  30% {
+    transform: rotate(150deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  60% {
+    transform: rotate(330deg);
+  }
+  80% {
+    transform: rotate(540deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* back to top */
+.c_pointer {
+  cursor: pointer;
+}
+.backtotop_icon{height: 50px;
+width: 50px;
+background-color: #ff5001;
+bottom: 4%;
+right: 4%;
+border-radius: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 2px solid transparent;
+transition: all 250ms linear;
+animation: scale 2s linear infinite;}
+@keyframes scale {
+  0%{transform: scale(1)rotate(270deg)translate(4px);}
+  50%{transform: scale(1.1)rotate(270deg)translate(-3px);}
+  100%{transform: scale(1)rotate(270deg)translate(4px);}
+  
+}
+.backtotop_icon:hover{background-color: black;
+border: 2px solid #ff5001;}
