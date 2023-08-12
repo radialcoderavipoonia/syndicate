@@ -14,8 +14,16 @@ const RoyaltyStash = () => {
             Royalty Stash
           </h2>
           <div className="royalti_stash_linier_bg mx-auto mt-5 position-relative">
-            <img className="position-absolute royalty_left_box d-none d-md-block" src={Box_2} alt="Box_1" />
-            <img className="position-absolute royalty_right_box d-none d-md-block" src={Box_1} alt="Box_1" />
+            <img
+              className="position-absolute royalty_left_box d-none d-md-block"
+              src={Box_2}
+              alt="Box_1"
+            />
+            <img
+              className="position-absolute royalty_right_box d-none d-md-block"
+              src={Box_1}
+              alt="Box_1"
+            />
             <div className="text-center pt-4 mt-2 px-3 px-lg-5">
               <p className="ff_poppins fw-normal fs_2xl lh_174 text-white mb-0">
                 We charge a 8% royalty fee for every Small Arms Syndicate NFT

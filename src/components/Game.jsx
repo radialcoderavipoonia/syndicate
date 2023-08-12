@@ -16,7 +16,7 @@ const Game = () => {
             <Col lg={6} md={11}>
                 <div className="game_img position-relative">
                     <img src={game} alt="dragon" className="w-100" />
-                    <img className="game_play_btn position-absolute" src={play_btn} alt="play_btn" />
+                    <img className="game_play_btn position-absolute c_pointer" src={play_btn} alt="play_btn" />
                 </div>
             </Col>
           </Row>
