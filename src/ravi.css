@@ -59,6 +59,10 @@
 .ani_dragons4 {
   animation: drazonhero4 1.9s linear infinite alternate;
 }
+.h_w_dragon_footer {
+  width: 140px !important;
+  height: 140px !important;
+}
 
 @keyframes drazonhero1 {
   0% {
@@ -99,6 +103,18 @@
     height: 100% !important;
   }
 }
+@media (min-width: 768px) {
+  .h_w_dragon_footer {
+    width: 200px !important;
+    height: 200px !important;
+  }
+}
+@media (min-width: 992px) {
+  .h_w_dragon_footer {
+    width: 306px !important;
+    height: 307px !important;
+  }
+}
 @media (min-width: 1200px) {
   .min_vh_100_xxl {
     min-height: 100vh;
@@ -110,6 +126,10 @@
   }
   .position_absolute {
     position: absolute !important;
+  }
+  .h_w_dragon_footer {
+    width: 406px !important;
+    height: 407px !important;
   }
 }
 @media (min-width: 1400px) {
@@ -140,11 +160,31 @@
 }
 /* footer  */
 .icon_hover:hover {
-    box-shadow: 0 0 20px 5px #fed110;
-    -webkit-transform: translateY(-5px);
-    transform: translateY(-5px);
+  box-shadow: 0 0 20px 5px #fed110;
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 .icon_hover {
-    border-radius: 50%;
-    transition: all .3s ease-in-out;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav ul li a {
+  position: relative;
+ 
+}
+.nav ul li a::before {
+  position: absolute;
+  content: "";
+  background-color: white;
+  height: 3px;
+  width: 0;
+  bottom: -5px;
+  left: 50%;
+  border-radius: 20px;
+   transition: all 0.3s linear !important;
+}
+.nav ul li a:hover::before{
+  width: 100%;
+  left: 0;
 }
