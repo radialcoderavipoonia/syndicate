@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import footerlogo from "../assets/images/png/page_Logo.png";
+import footerlogo from "../assets/images/webp/page_Logo.webp";
 import twitter_icon from "../assets/images/png/twitter_icon.png";
 import discord_icon from "../assets/images/png/discord_icon.png";
 import boat_icon from "../assets/images/png/boat_icon.png";

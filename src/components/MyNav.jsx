@@ -2,7 +2,7 @@ import { React, useState } from "react";
 import { HiMenuAlt1 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
 import { Nav } from "react-bootstrap";
-import nav_logo from "../assets/images/png/page_Logo.png";
+import nav_logo from "../assets/images/webp/page_Logo.webp";
 
 const MyNav = () => {
   const [Show, setShow] = useState(true);
