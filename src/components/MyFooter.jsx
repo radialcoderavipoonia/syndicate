@@ -10,9 +10,9 @@ import footer_right_drazon from "../assets/images/webp/footer_right_dragon.webp"
 const MyFooter = () => {
   return (
     <>
-      <section className="pt-5 position-relative overflow-hidden">
-        <Container className="pt-5" data-aos="zoom-in-down"data-aos-duration="2000">
-          <div className="text-center">
+      <section className="pt-5 mt-md-5 position-relative overflow-hidden">
+        <Container className="pt-lg-5 mt-xl-5" data-aos="zoom-in-down"data-aos-duration="2000">
+          <div className="text-center pt-xxl-5">
             <a href="#">
               <img
                 height={149}

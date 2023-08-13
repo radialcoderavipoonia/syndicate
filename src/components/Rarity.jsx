@@ -9,13 +9,13 @@ const Rarity = () => {
   return (
     <>
       <section id="rarity" className="py-5 position-relative">
-        <Container>
+        <Container className="py-xl-5 my-lg-3">
           <div>
             <h2 className="fw-normal fs_7xl text-white ff_agnostic text-center mb-0" data-aos="fade-up"data-aos-duration="2000">
               Rarity
             </h2>-
-            <div className="overflow-auto w_1200 start-0">
-              <div className="d-flex align-items-center justify-content-center mt-4 mt-lg-5 ">
+            <div className="overflow-auto w_1200 mx-auto">
+              <div className="d-flex align-items-center justify-content-xl-center mt-2 mt-lg-4 mt-xl-5 ">
                 <div className="py-2 me-1">
                   <button
                     onClick={() => {
@@ -71,7 +71,7 @@ const Rarity = () => {
                 </div>
               </div>
             </div>
-            <Row className="mt-3 mt-lg-5 pt-md-2">
+            <Row className="mt-3 mt-lg-4 mt-xl-5 pt-md-2">
               {RatCard.map((Raritycard) => {
                 return (
                   <Col data-aos="fade-up"data-aos-duration="2000"

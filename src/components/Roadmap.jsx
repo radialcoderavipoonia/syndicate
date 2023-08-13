@@ -5,9 +5,9 @@ import side_circle from "../assets/images/png/side_circle_img.png"
 const Roadmap = () => {
   return (
     <>
-      <section id="roadmap" className="roadmap_section py-5 position-relative">
-        <Container>
-          <h2 className="ff_agnostic text-white fs_7xl fw-normal pb-5 mb-xxl-4 text-center text-lg-start">
+      <section id="roadmap" className="roadmap_section py-lg-5 position-relative mt-md-5">
+        <Container className="py-5 mt-xl-5">
+          <h2 className="ff_agnostic text-white fs_7xl fw-normal pb-5 mb-xxl-4 text-center text-lg-start mt-xl-3">
             RoadMap
           </h2>
           <Row>
@@ -35,11 +35,11 @@ const Roadmap = () => {
               </ul>
             </Col>
           </Row>
-          <Row className="pt-lg-5 pt-sm-3 pt-2 pt-3 mt-xxl-3 justify-content-lg-between justify-content-center">
-            <Col lg={6} data-aos="fade-right"data-aos-duration="2000">
+          <Row className="py-lg-5 pt-sm-3 pt-2 pt-3 mt-xxl-3 justify-content-lg-between justify-content-center">
+            <Col lg={6} data-aos="fade-right"data-aos-duration="2000" className="pb-xl-5">
               <h3 className="mb-2">Phase 3 (Funding Plans)</h3>
               <p className="ff_poppins fw-normal fs_md lh_174 mb-0 text-white pb-4">
-                Phase 3 will be activated as we find new homes for our Small
+                Phase 3 will be activated as we find new homes for our Small <span className="d-lg-block"></span>
                 Arms Syndicate NFTs
               </p>
               <p className="ff_poppins fs_md fw-normal text-white mb-0 lh_174 pb-1">
@@ -90,7 +90,7 @@ const Roadmap = () => {
                 - TBA - Stay tuned!
               </p>
             </Col>
-            <Col lg={6} xl={5} sm={10} xs={11} data-aos="fade-left"data-aos-duration="2200">
+            <Col lg={6} xl={5} sm={10} xs={11} data-aos="fade-left"data-aos-duration="2200" className="pb-xl-5">
               <img
                 src={Roadmap_dragon}
                 alt="dragon"

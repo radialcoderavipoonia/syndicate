@@ -7,8 +7,8 @@ const Game = () => {
   return (
     <>
       <section id="game" className="py-5 position-relative">
-        <Container>
-          <Row className="align-items-center justify-content-center">
+        <Container className="pt-lg-5 mt-xl-5">
+          <Row className="align-items-center justify-content-center pt-5">
             <Col lg={6} data-aos="fade-right"data-aos-duration="2000">
                 <h2 className="ff_agnostic fs_6xl fw-normal mb-0 text-white text-center text-lg-start">Syndicate Game</h2>
                 <h3 className="ff_agnostic fs_3xl fw-normal mb-0 text-white pt-4 mb-1 text-center text-lg-start">What will the Syndicate game be?</h3>
