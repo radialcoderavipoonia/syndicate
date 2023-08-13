@@ -5,7 +5,7 @@ import side_circle from "../assets/images/png/side_circle_img.png"
 const Roadmap = () => {
   return (
     <>
-      <section id="roadmap" className="roadmap_section py-lg-5 position-relative mt-md-5">
+      <section id="roadmap" className="roadmap_section py-lg-5">
         <Container className="py-5 mt-xl-5">
           <h2 className="ff_agnostic text-white fs_7xl fw-normal pb-5 mb-xxl-4 text-center text-lg-start mt-xl-3">
             RoadMap
