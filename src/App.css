@@ -1,3 +1,4 @@
+/* common classes  */
 * {
   text-decoration: none !important;
 }
@@ -25,7 +26,7 @@
 .transition_3s {
   transition: all 300ms linear;
 }
-
+/* padding  */
 .py_14 {
   padding-top: 14px;
   padding-bottom: 14px;
@@ -34,12 +35,512 @@
   padding-left: 20px;
   padding-right: 20px;
 }
-
+.py_12 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+/* nav bar  */
+.sm_nav {
+  position: fixed;
+  z-index: 99 !important;
+  bottom: 0;
+  left: -100%;
+  height: calc(100vh - 100px) !important;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 300ms linear !important;
+}
+.nav_animation {
+  transform: translateY(100px);
+  pointer-events: none;
+  opacity: 0;
+  transition: 1000ms linear;
+}
+.opennav {
+  transform: translateY(0px);
+  pointer-events: unset;
+  opacity: 1;
+}
+.shadow {
+  box-shadow: 10px 10px 10px 10px rgba(255, 174, 1, 1);
+}
+.nav ul li a {
+  position: relative;
+}
+.nav ul li a::before {
+  position: absolute;
+  content: "";
+  background-color: white;
+  height: 3px;
+  width: 0;
+  bottom: -5px;
+  left: 50%;
+  border-radius: 20px;
+  transition: all 0.3s linear !important;
+}
+.nav ul li a:hover::before {
+  width: 100%;
+  left: 0;
+}
+/* hero section  */
+.hero_bg {
+  background-image: url("../src/assets/images/webp/hero_bg.webp");
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.dragon_height_width {
+  width: 100% !important;
+  max-width: 150px !important;
+  height: 100% !important;
+}
+.left_5 {
+  left: 10%;
+}
+.logo_not_visible {
+  opacity: 0;
+  pointer-events: none;
+}
+/* animations  */
+.ani_dragons1 {
+  animation: drazonhero1 1.5s linear infinite alternate;
+}
+.ani_dragons2 {
+  animation: drazonhero2 1.9s linear infinite alternate;
+}
+.ani_dragons3 {
+  animation: drazonhero3 1.5s linear infinite alternate;
+}
+.ani_dragons4 {
+  animation: drazonhero4 1.9s linear infinite alternate;
+}
+.circle_spin {
+  animation: circlespin 4s linear infinite;
+}
+.circle_ani {
+  animation: circleanimation 1.5s linear infinite alternate;
+}
+.animation_preloader {
+  animation: spin 4s ease infinite;
+}
+@keyframes drazonhero1 {
+  0% {
+    transform: translateY(-10px) scale(1.1);
+  }
+  100% {
+    transform: translateY(25px) scale(0.9);
+  }
+}
+@keyframes drazonhero2 {
+  0% {
+    transform: translateY(0px) scale(1.1);
+  }
+  100% {
+    transform: translateY(25px) scale(0.9);
+  }
+}
+@keyframes drazonhero3 {
+  0% {
+    transform: translateY(0px) scale(1.1);
+  }
+  100% {
+    transform: translateY(25px) scale(0.9);
+  }
+}
+@keyframes drazonhero4 {
+  0% {
+    transform: translateY(0px) scale(1.1);
+  }
+  100% {
+    transform: translateY(25px) scale(0.9);
+  }
+}
+@keyframes circleanimation {
+  0% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(180deg);
+  }
+  30% {
+    transform: rotate(150deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  60% {
+    transform: rotate(330deg);
+  }
+  80% {
+    transform: rotate(540deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes circlespin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* footer  */
+.icon_hover:hover {
+  box-shadow: 0 0 20px 5px #fed110;
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+.icon_hover {
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+.footer_line {
+  height: 1px;
+  opacity: 0.1;
+  background: #fff;
+  max-width: 1320px;
+}
+  .h_w_dragon_footer {
+    width: 145px !important;
+    height: 145px !important;
+  }
+/* side circle  */
+.bg_side_circle {
+  width: 334px;
+  height: 334px;
+  border-radius: 334px;
+  background: #781d00;
+  filter: blur(250px);
+}
+/* max-width  */
+.mw_539 {
+  max-width: 529px;
+}
+.mw_575 {
+  max-width: 575px !important;
+}
+.mw_941 {
+  max-width: 941px;
+}
+.w_1200 {
+  max-width: 1200px !important;
+}
+/* top bottom left right  */
+.left_-5 {
+  left: -5%;
+}
+.right_-5 {
+  right: -5%;
+}
+.left_-4 {
+  left: -4%;
+}
+.top_35 {
+  top: 35%;
+}
+.top_-12 {
+  top: -12%;
+}
+.bottom_-12 {
+  bottom: -12%;
+}
+.bottom_-20 {
+  bottom: -20%;
+}
+.top_10 {
+  top: 10%;
+}
+.bottom_-22 {
+  bottom: -22%;
+}
+/* rarity-section */
+.d_none {
+  display: none;
+}
+.btn_rarity_bg_linier {
+  background: linear-gradient(180deg, #1b1b1b 0%, #090909 100%);
+  transition: 0.3s ease-in-out;
+}
+.btn_rarity_bg_linier_2 {
+  background: linear-gradient(180deg, #1b1b1b 0%, #090909 100%);
+  transition: 0.3s ease-in-out;
+}
+.btn_rarity_bg_linier:hover {
+  background: linear-gradient(180deg, #fed710 0%, #ff5001 100%), #ffae01;
+}
+.rarity_sec_btn_p {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.rarity_card_border {
+  border: 1.26px solid #ff5001;
+  border-radius: 17.34px;
+  background-image: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.03) 100%
+  );
+  backdrop-filter: blur(31.478700637817383px);
+}
+.rarity_card_border:hover {
+  box-shadow: 0 0 30px 3px #ff5602b4;
+}
+.text_color_linier {
+  background: linear-gradient(#fed710, #ff5001);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.rarity_btn_buynow_px {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+/*----------- royalty stash section --------------------*/
+.royalty_stash_bg_img {
+  background-image: url(./assets/images/webp//royaltystay_bg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.royalti_stash_linier_bg {
+  border: 1.26px solid #ff5001;
+  border-radius: 17px;
+  backdrop-filter: blur(27.21642303466797px);
+  max-width: 1136px;
+}
+.royalti_tatto_img_1_width {
+  max-width: 280px;
+}
+.royalti_tatto_img_2_width {
+  max-width: 246px;
+}
+.royalti_tatto_img_3_width {
+  max-width: 265px;
+}
+.royalty_left_box {
+  left: -10%;
+  bottom: -30px;
+  max-width: 100px;
+}
+.royalty_right_box {
+  right: -5%;
+  bottom: -40px;
+  max-width: 90px;
+}
+.overflow_auto {
+  overflow: auto;
+}
+.d_block {
+  display: block;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+/* ----------------------------------- Roadmap section ----------------------------- */
+.roadmap_section h3 {
+  font-family: "Agnostic";
+  font-size: var(--fs-5xl);
+  font-weight: 400;
+  background: linear-gradient(180deg, #fed710 0%, #ff5001 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.roadmap_section ul li {
+  color: #fff;
+  font-family: "Poppins";
+  font-size: var(--fs-md);
+  font-weight: 400;
+  line-height: 174%;
+}
+.roadmap_numbers_linear {
+  background: linear-gradient(180deg, #fed710 0%, #ff5001 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/*------------------------------------------ team section -------------------------------*/
+.team_bg {
+  background-image: url(../src/assets/images/webp/team_bg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.on_image_text {
+  bottom: 4%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.team_card:hover {
+  box-shadow: 0px 4px 41px 0px rgba(254, 215, 16, 0.5);
+  border-radius: 16px;
+}
+.team_section::before {
+  content: " ";
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+  transform: matrix(1, 0, 0, -1.5, 0, 0);
+  width: 100%;
+  height: 50px;
+}
+/*------------------------------------ preloader ----------------*/
+.z_index_50 {
+  z-index: 50;
+}
+/* back to top */
+.c_pointer {
+  cursor: pointer;
+}
+.backtotop_icon {
+  height: 50px;
+  width: 50px;
+  background-color: #ff5001;
+  bottom: 4%;
+  right: 4%;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid transparent;
+  transition: all 250ms linear;
+  animation: scale 2s linear infinite;
+}
+@keyframes scale {
+  0% {
+    transform: scale(1) rotate(270deg) translate(4px);
+  }
+  50% {
+    transform: scale(1.1) rotate(270deg) translate(-3px);
+  }
+  100% {
+    transform: scale(1) rotate(270deg) translate(4px);
+  }
+}
+.backtotop_icon:hover {
+  background-color: black;
+  border: 2px solid #ff5001;
+}
+/*---------------------------------------------------- game section  ---------------------------*/
+.game_play_btn {
+  bottom: -5%;
+  left: -1%;
+  width: 70px;
+}
+/* media screen  */
+@media (min-width: 576px) {
+  .dragon_height_width {
+    width: 100% !important;
+    max-width: 200px !important;
+    height: 100% !important;
+  }
+  .game_play_btn {
+    bottom: -5%;
+    left: -5%;
+    width: 140px;
+  }
+}
+@media (min-width: 768px) {
+  .h_w_dragon_footer {
+    width: 200px !important;
+    height: 200px !important;
+  }
+}
 @media (min-width: 992px) {
+  .h_w_dragon_footer {
+    width: 306px !important;
+    height: 307px !important;
+  }
   .lh_150 {
     line-height: 150%;
   }
   .lh_174 {
     line-height: 174%;
+  }
+  .royalty_left_box {
+    left: -5%;
+    max-width: 140px;
+  }
+  .royalty_right_box {
+    right: -5%;
+    max-width: 160px;
+  }
+}
+@media (min-width: 1200px) {
+  .min_vh_100_xxl {
+    min-height: 100vh;
+  }
+  .dragon_height_width {
+    width: 100% !important;
+    max-width: 280px !important;
+    height: 100% !important;
+  }
+  .position_absolute {
+    position: absolute !important;
+  }
+  .h_w_dragon_footer {
+    width: 350px !important;
+    height: 350px !important;
+  }
+  .royalty_left_box {
+    left: -3%;
+    max-width: 200px;
+  }
+  .royalty_right_box {
+    right: -4%;
+    max-width: 180px;
+  }
+  .overflow_auto {
+    overflow: unset !important;
+  }
+}
+@media (min-width: 1400px) {
+  .hero_dragon1 {
+    width: 380px !important;
+    height: 453px !important;
+  }
+  .hero_dragon2 {
+    width: 280px !important;
+    height: 356px !important;
+  }
+  .hero_dragon3 {
+    width: 250px !important;
+    height: 310px !important;
+  }
+  .hero_dragon4 {
+    width: 380px !important;
+    height: 450px !important;
+  }
+  .dragon_height_width {
+    width: 100% !important;
+    max-width: 280px !important;
+    height: 100% !important;
+  }
+  .trans_70X {
+    transform: translateX(70px);
+  }
+  .h_w_dragon_footer {
+    width: 406px !important;
+    height: 407px !important;
+  }
+  .royalty_right_box {
+    right: -10%;
+    max-width: 300px;
+  }
+  .royalty_left_box {
+    left: -7%;
+    max-width: 250px;
   }
 }
