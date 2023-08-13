@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import footerlogo from "../assets/images/png/page_Logo.png";
+import footerlogo from "../assets/images/webp/page_Logo.webp";
 import twitter_icon from "../assets/images/png/twitter_icon.png";
 import discord_icon from "../assets/images/png/discord_icon.png";
 import boat_icon from "../assets/images/png/boat_icon.png";
@@ -11,7 +11,7 @@ const MyFooter = () => {
   return (
     <>
       <section className="pt-5 position-relative overflow-hidden">
-        <Container className="pt-5">
+        <Container className="pt-5" data-aos="zoom-in-down"data-aos-duration="2000">
           <div className="text-center">
             <a href="#">
               <img
@@ -50,6 +50,7 @@ const MyFooter = () => {
                 />
               </a>
             </div>
+            <div className="footer_line"></div>
             <div className="py-4">
               <p className="text-center text-white ff_poppins fs_sm fw-normal opcity_07">
                 Copyright©Small Arms Syndicate.com
@@ -71,6 +72,7 @@ const MyFooter = () => {
             className="h_w_dragon_footer"
           />
         </div>
+     
       </section>
     </>
   );

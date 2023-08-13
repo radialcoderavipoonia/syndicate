@@ -1,18 +1,19 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Roadmap_dragon from "../assets/images/webp/roadmap_img.webp";
+import side_circle from "../assets/images/png/side_circle_img.png"
 const Roadmap = () => {
   return (
     <>
-      <section className="roadmap_section bg-black py-5 f-g">
+      <section id="roadmap" className="roadmap_section py-5 position-relative">
         <Container>
           <h2 className="ff_agnostic text-white fs_7xl fw-normal pb-5 mb-xxl-4 text-center text-lg-start">
             RoadMap
           </h2>
           <Row>
-            <Col lg={5}>
+            <Col lg={5} data-aos="fade-right"data-aos-duration="1500" >
               <h3 className="mb-2">Phase 1</h3>
-              <ul className="ps-3">
+              <ul className="ps-3 mb-0">
                 <li>Project Concept</li>
                 <li> Official Name - Small Arms Syndicate</li>
                 <li>Development of NFT art work</li>
@@ -21,9 +22,9 @@ const Roadmap = () => {
                 <li> Wanderfuls holders SAS NFT Airdrops</li>
               </ul>
             </Col>
-            <Col lg={7}>
+            <Col lg={7} data-aos="fade-left"data-aos-duration="1800">
               <h3 className="mb-2 pt-sm-3 pt-2">Phase 2</h3>
-              <ul className="ps-3">
+              <ul className="ps-3 mb-0">
                 <li>NFT minting on OpenZoo</li>
                 <li> Community development</li>
                 <li>Grow Small Arms Syndicates development team</li>
@@ -35,7 +36,7 @@ const Roadmap = () => {
             </Col>
           </Row>
           <Row className="pt-lg-5 pt-sm-3 pt-2 pt-3 mt-xxl-3 justify-content-lg-between justify-content-center">
-            <Col lg={6}>
+            <Col lg={6} data-aos="fade-right"data-aos-duration="2000">
               <h3 className="mb-2">Phase 3 (Funding Plans)</h3>
               <p className="ff_poppins fw-normal fs_md lh_174 mb-0 text-white pb-4">
                 Phase 3 will be activated as we find new homes for our Small
@@ -89,15 +90,26 @@ const Roadmap = () => {
                 - TBA - Stay tuned!
               </p>
             </Col>
-            <Col lg={6} xl={5} sm={10} xs={11}>
+            <Col lg={6} xl={5} sm={10} xs={11} data-aos="fade-left"data-aos-duration="2200">
               <img
                 src={Roadmap_dragon}
                 alt="dragon"
-                className="w-100 mt-3 mt-lg-0"
+                className="w-100 mt-3 mt-lg-0 position-relative z-1"
               />
             </Col>
           </Row>
         </Container>
+        <div className="position-absolute top_35 d-xxl-block d-none left_-4 circle_spin">
+          <img
+            height={201}
+            width={201}
+            src={side_circle}
+            alt="side_circle_img"
+          />
+        </div>
+        <div className="position-absolute top_35 left_-4 d-xxl-block d-none circle_ani">
+          <div className="bg_side_circle"></div>
+        </div>
       </section>
     </>
   );
