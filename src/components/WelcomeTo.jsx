@@ -28,7 +28,7 @@ const WelcomeTo = () => {
                     Small Arms Syndicate
                   </span>
                 </h2>
-                <div className="mw_575">
+                <div className="mw_575 mx-auto mx-lg-0">
                   <p className="ff_poppins fs_md text-white fw-normal lh_174 mb-0  pt-xl-1">
                     Mauris, ipsum auctor at aenean. Ultrices netus enim nulla
                     nisl, metus, leo, donec sed sollicitudin. Nisl, sem dapibus
