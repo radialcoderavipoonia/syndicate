@@ -14,7 +14,7 @@ const Rarity = () => {
             <h2 className="fw-normal fs_7xl text-white ff_agnostic text-center mb-0" data-aos="fade-up"data-aos-duration="2000">
               Rarity
             </h2>-
-            <div className="overflow-auto w_1200 mx-auto">
+            <div className="overflow_auto w_1200 mx-auto">
               <div className="d-flex align-items-center justify-content-xl-center mt-2 mt-lg-4 mt-xl-5 ">
                 <div className="py-2 me-1">
                   <button
