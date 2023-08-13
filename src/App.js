@@ -15,7 +15,7 @@ import MyFooter from "./components/MyFooter";
 import BackToTop from "./components/BackToTop";
 import Preloader from "./components/Preloader";
 import AOS from "aos";
-// import "aos/dist/aos.css";
+import "aos/dist/aos.css";
 function App() {
   useEffect(() => {
     AOS.init({
