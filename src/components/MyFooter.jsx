@@ -6,12 +6,17 @@ import discord_icon from "../assets/images/png/discord_icon.png";
 import boat_icon from "../assets/images/png/boat_icon.png";
 import footer_left_drazon from "../assets/images/webp/footer_left_dragon.webp";
 import footer_right_drazon from "../assets/images/webp/footer_right_dragon.webp";
+import side_circle from "../assets/images/png/side_circle_img.png"
 
 const MyFooter = () => {
   return (
     <>
       <section className="pt-5 mt-md-5 position-relative overflow-hidden">
-        <Container className="pt-lg-5 mt-xl-5" data-aos="zoom-in-down"data-aos-duration="2000">
+        <Container
+          className="pt-lg-5 mt-xl-5"
+          data-aos="zoom-in-down"
+          data-aos-duration="2000"
+        >
           <div className="text-center pt-xxl-5">
             <a href="#">
               <img
@@ -58,21 +63,31 @@ const MyFooter = () => {
             </div>
           </div>
         </Container>
-        <div className="position-absolute bottom-0 start-0 d-none d-sm-block ani_dragons2">
+        <div className="position-absolute bottom-0 start-0 d-none d-sm-block ani_dragons2 z-1">
           <img
             src={footer_left_drazon}
             alt="footer_left_drazon "
             className="h_w_dragon_footer"
           />
         </div>
-        <div className="position-absolute bottom-0 end-0 d-none d-sm-block ani_dragons4">
+        <div className="position-absolute bottom-0 end-0 d-none d-sm-block ani_dragons4 z-1">
           <img
             src={footer_right_drazon}
             alt="footer_right_drazon "
             className="h_w_dragon_footer"
           />
         </div>
-     
+        <div className="position-absolute bottom-0 left_-5 d-lg-block d-none circle_spin ">
+          <img
+            height={201}
+            width={201}
+            src={side_circle}
+            alt="side_circle_img"
+          />
+        </div>
+        <div className="position-absolute bottom-0 left_-5 d-lg-block d-none circle_ani ">
+          <div className="bg_side_circle"></div>
+        </div>
       </section>
     </>
   );

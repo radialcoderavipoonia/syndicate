@@ -255,5 +255,11 @@
   height: 1px;
   opacity: 0.1;
   background: #fff;
-  width: 100%;
+  max-width: 1320px;
+}
+.mw_539 {
+  max-width: 529px;
+}
+.mw_575 {
+  max-width: 575px !important;
 }
