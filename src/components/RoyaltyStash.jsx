@@ -35,7 +35,7 @@ const RoyaltyStash = () => {
                 Stashed Amount : 16K
               </h3>
               <div className="d-flex align-items-center justify-content-center mt-5 pt-xxl-3">
-                <div className="px-2 royalti_tatto_img_1_width">
+                <div className="px-2">
                   <img
                     className="w-100 royalty_dragon_1"
                     height={73}
@@ -44,7 +44,7 @@ const RoyaltyStash = () => {
                     alt="Royalti_tatto_1"
                   />
                 </div>
-                <div className="px-2 royalti_tatto_img_2_width">
+                <div className="px-2 d-none d-sm-block">
                   <img
                     className="w-100 royalty_dragon_2"
                     height={84}
@@ -53,7 +53,7 @@ const RoyaltyStash = () => {
                     alt="Royalti_tatto_2"
                   />
                 </div>
-                <div className="px-2 royalti_tatto_img_3_width">
+                <div className="px-2">
                   <img
                     className="w-100  royalty_dragon_3"
                     height={73}
