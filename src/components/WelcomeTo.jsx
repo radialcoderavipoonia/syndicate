@@ -77,5 +77,4 @@ const WelcomeTo = () => {
     </>
   );
 };
-
 export default WelcomeTo;

@@ -118,9 +118,6 @@
 .ani_dragons4 {
   animation: drazonhero4 3.9s linear infinite alternate;
 }
-.circle_spin {
-  animation: circlespin 4s linear infinite;
-}
 .circle_ani {
   animation: circleanimation 3.5s linear infinite alternate;
 }
@@ -165,29 +162,6 @@
   }
   100% {
     transform: scale(1);
-  }
-}
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  20% {
-    transform: rotate(180deg);
-  }
-  30% {
-    transform: rotate(150deg);
-  }
-  50% {
-    transform: rotate(360deg);
-  }
-  60% {
-    transform: rotate(330deg);
-  }
-  80% {
-    transform: rotate(540deg);
-  }
-  100% {
-    transform: rotate(360deg);
   }
 }
 @keyframes circlespin {
@@ -297,7 +271,6 @@
   backdrop-filter: blur(31.478700637817383px);
   transition: 0.3s ease-in-out;
 }
-
 .rarity_card_border::before {
   content: "";
   position: absolute;
@@ -310,7 +283,6 @@
   mask-composite: exclude;
   pointer-events: none;
 }
-
 .rarity_card_border:hover {
   box-shadow: 0 0 30px 3px #ff5602b4;
 }
@@ -342,7 +314,6 @@
   transition: 0.3s ease-in-out;
   max-width: 1136px;
 }
-
 .royalti_stash_linier_bg::before {
   content: "";
   position: absolute;
@@ -374,19 +345,15 @@
 ::-webkit-scrollbar {
   display: none;
 }
-
 .royalty_dragon_1 {
   min-height: 120px;
 }
-
 .royalty_dragon_2 {
   min-height: 120px;
 }
-
 .royalty_dragon_3 {
   min-height: 120px;
 }
-
 .roadmap_section h3 {
   font-family: "Agnostic";
   font-size: var(--fs-5xl);
@@ -519,7 +486,7 @@
   .royalty_dragon_3 {
     min-height: 150px;
   }
-  .logo_size{
+  .logo_size {
     width: 92px;
     height: 92px;
   }
@@ -552,7 +519,7 @@
   .royalty_dragon_3 {
     min-height: 210px;
   }
-  .footer_page_logo{
+  .footer_page_logo {
     height: 150px;
     width: 150px;
   }
@@ -640,11 +607,9 @@
   .royalty_dragon_1 {
     min-height: 250px;
   }
-
   .royalty_dragon_2 {
     min-height: 250px;
   }
-
   .royalty_dragon_3 {
     min-height: 250px;
   }

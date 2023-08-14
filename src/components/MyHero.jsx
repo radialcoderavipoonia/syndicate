@@ -5,7 +5,6 @@ import heroimg1 from "../assets/images/webp/hero_dragon_1.webp";
 import heroimg2 from "../assets/images/webp/hero_dragon_2.webp";
 import heroimg3 from "../assets/images/webp/hero_dragon_3.webp";
 import heroimg4 from "../assets/images/webp/hero_dragon_4.webp";
-
 const MyHero = () => {
   return (
     <>
@@ -13,7 +12,7 @@ const MyHero = () => {
         <MyNav />
         <section className="h-100 flex-grow-1 pt-xl-5 mt-5 ">
           <Container className="pt-5 mt-5 ">
-            <div className="pb-xl-0 pb-sm-5 mb-xl-0 mb-sm-5" data-aos="fade-up" data-aos-duration="2000"data-aos-delay="2500">
+            <div className="pb-xl-0 pb-sm-5 mb-xl-0 mb-sm-5" data-aos="fade-up" data-aos-duration="2000">
               <h1 className="text-center ff_agnostic fw-normal fs_8xl text-white pt-xl-5 mb-0">
                 Small Arms Syndicate
               </h1>
@@ -57,5 +56,4 @@ const MyHero = () => {
     </>
   );
 };
-
 export default MyHero;

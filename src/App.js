@@ -10,7 +10,6 @@ import RoyaltyStash from "./components/RoyaltyStash";
 import Game from "./components/Game";
 import MyFooter from "./components/MyFooter";
 import BackToTop from "./components/BackToTop";
-import Preloader from "./components/Preloader";
 import AOS from "aos";
 import "aos/dist/aos.css";
 function App() {
@@ -22,7 +21,6 @@ function App() {
   }, []);
   return (
     <div className="bg-black overflow-hidden">
-      <Preloader />
       <BackToTop />
       <MyHero />
       <WelcomeTo />

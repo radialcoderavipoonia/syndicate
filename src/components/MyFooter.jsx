@@ -7,7 +7,6 @@ import boat_icon from "../assets/images/webp/boat_icon.webp";
 import footer_left_drazon from "../assets/images/webp/footer_left_dragon.webp";
 import footer_right_drazon from "../assets/images/webp/footer_right_dragon.webp";
 import side_circle from "../assets/images/webp/side_circle_img.webp"
-
 const MyFooter = () => {
   return (
     <>
@@ -93,5 +92,4 @@ const MyFooter = () => {
     </>
   );
 };
-
 export default MyFooter;

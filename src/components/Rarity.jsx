@@ -18,8 +18,7 @@ const Rarity = () => {
             >
               Rarity
             </h2>
-            -
-            <div className="overflow_auto w_1200 mx-auto" >
+            <div className="overflow_auto w_1200 mx-auto">
               <div className="d-flex align-items-center justify-content-xl-center mt-2 mt-lg-4 mt-xl-5 ">
                 <div className="py-2 me-1">
                   <button
@@ -95,7 +94,6 @@ const Rarity = () => {
                         <img
                           className="w-100 ratiry_card_image"
                           src={Raritycard.imgcard}
-                         
                           alt="card_1"
                         />
                         <h2 className="fw-medium ff_poppins fs_lg text-white pt-4 mt-1 mb-0">

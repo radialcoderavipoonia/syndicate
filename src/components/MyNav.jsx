@@ -3,7 +3,6 @@ import { HiMenuAlt1 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
 import { Nav } from "react-bootstrap";
 import nav_logo from "../assets/images/webp/page_Logo.webp";
-
 const MyNav = () => {
   const [Show, setShow] = useState(true);
   function showNav() {
@@ -73,7 +72,6 @@ const MyNav = () => {
               </button>
             </div>
           </div>
-
           <div
             className="d-flex justify-content-between flex-column d-lg-none "
             onClick={showNav}
@@ -153,5 +151,4 @@ const MyNav = () => {
     </>
   );
 };
-
 export default MyNav;
