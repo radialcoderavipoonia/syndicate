@@ -107,22 +107,22 @@
 }
 /*------------------------------------------------------ animations  --------------------------------------*/
 .ani_dragons1 {
-  animation: drazonhero1 1.5s linear infinite alternate;
+  animation: drazonhero1 3.5s linear infinite alternate;
 }
 .ani_dragons2 {
-  animation: drazonhero2 1.9s linear infinite alternate;
+  animation: drazonhero2 3.9s linear infinite alternate;
 }
 .ani_dragons3 {
-  animation: drazonhero3 1.5s linear infinite alternate;
+  animation: drazonhero3 3.5s linear infinite alternate;
 }
 .ani_dragons4 {
-  animation: drazonhero4 1.9s linear infinite alternate;
+  animation: drazonhero4 3.9s linear infinite alternate;
 }
 .circle_spin {
   animation: circlespin 4s linear infinite;
 }
 .circle_ani {
-  animation: circleanimation 1.5s linear infinite alternate;
+  animation: circleanimation 3.5s linear infinite alternate;
 }
 .animation_preloader {
   animation: spin 4s ease infinite;
@@ -132,7 +132,7 @@
     transform: translateY(-10px) scale(1.1);
   }
   100% {
-    transform: translateY(25px) scale(0.9);
+    transform: translateY(15px) scale(1);
   }
 }
 @keyframes drazonhero2 {
@@ -140,7 +140,7 @@
     transform: translateY(0px) scale(1.1);
   }
   100% {
-    transform: translateY(25px) scale(0.9);
+    transform: translateY(15px) scale(1);
   }
 }
 @keyframes drazonhero3 {
@@ -148,7 +148,7 @@
     transform: translateY(0px) scale(1.1);
   }
   100% {
-    transform: translateY(25px) scale(0.9);
+    transform: translateY(15px) scale(1);
   }
 }
 @keyframes drazonhero4 {
@@ -156,7 +156,7 @@
     transform: translateY(0px) scale(1.1);
   }
   100% {
-    transform: translateY(25px) scale(0.9);
+    transform: translateY(15px) scale(1);
   }
 }
 @keyframes circleanimation {
@@ -462,19 +462,36 @@
   .welcome_dragon {
     min-height: 269px !important;
   }
-  .roadmap_dragon{
-    min-height: 269px !important;
+  .roadmap_dragon {
+    max-width: 514px !important;
+    max-height: 514px !important;
   }
-  .team_card_image{
-    min-height:262px !important;
+  .team_card_image {
+    max-width: 524px !important;
+    max-height: 517px !important;
   }
-  .royalty_dragon_1{
-  min-height: 70px !important;}
-  .royalty_dragon_2{
-    min-height: 74px !important;
+  .royalty_dragon_1 {
+    max-width: 285 !important;
+    max-height: 285px !important;
   }
-  .royalty_dragon_3{
-  min-height: 70px !important;}
+  .royalty_dragon_2 {
+    max-width: 246px !important;
+    max-height: 246 !important;
+  }
+  .royalty_dragon_3 {
+    max-width: 265 !important;
+    max-height: 285 !important;
+  }
+  .h_sm_unset {
+    height: unset !important;
+  }
+  .w_sm_unset {
+    width: unset !important;
+  }
+  .footer_page_logo {
+    width: 149px;
+    height: 149px;
+  }
 }
 @media (min-width: 768px) {
   .h_w_dragon_footer {
@@ -533,25 +550,25 @@
 }
 @media (min-width: 1400px) {
   .hero_dragon1 {
-    width: 380px !important;
-    height: 453px !important;
+    width: 502px !important;
+    height: 502px !important;
   }
   .hero_dragon2 {
-    width: 280px !important;
-    height: 356px !important;
+    width: 406px !important;
+    height: 406px !important;
   }
   .hero_dragon3 {
-    width: 250px !important;
-    height: 310px !important;
+    width: 363px !important;
+    height: 363px !important;
   }
   .hero_dragon4 {
-    width: 380px !important;
-    height: 450px !important;
+    width: 502px !important;
+    height: 502px !important;
   }
   .dragon_height_width {
     width: 100% !important;
-    max-width: 280px !important;
-    height: 100% !important;
+    max-width: 300px !important;
+    height: 300% !important;
   }
   .trans_70X {
     transform: translateX(70px);

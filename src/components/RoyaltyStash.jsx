@@ -1,10 +1,10 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import Royalti_tatto_1 from "../assets/images/png/royalti_tato_1.png";
-import Royalti_tatto_2 from "../assets/images/png/royalti_tato_2.png";
-import Royalti_tatto_3 from "../assets/images/png/royalti_tato_3.png";
-import Box_1 from "../assets/images/png/royality_img_left_box.png"
-import Box_2 from "../assets/images/png/royality_img_right_box.png"
+import Royalti_tatto_1 from "../assets/images/webp/royalti_tato_1.webp";
+import Royalti_tatto_2 from "../assets/images/webp/royalti_tato_2.webp";
+import Royalti_tatto_3 from "../assets/images/webp/royalti_tato_3.webp";
+import Box_1 from "../assets/images/webp/royality_img_left_box.webp"
+import Box_2 from "../assets/images/webp/royality_img_right_box.webp"
 const RoyaltyStash = () => {
   return (
     <>

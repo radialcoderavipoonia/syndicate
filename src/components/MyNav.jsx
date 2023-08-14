@@ -140,7 +140,10 @@ const MyNav = () => {
               id="button_ani"
               className="ms-auto me-auto mt-3 button_animation"
             >
-              <button className="text-white btn_bg shadow ff_agnostic fw-normal fs_lg border-0 py_14 px_20 rounded-5">
+              <button
+                onClick={showNav}
+                className="text-white btn_bg shadow ff_agnostic fw-normal fs_lg border-0 py_14 px_20 rounded-5"
+              >
                 connect wallet
               </button>
             </div>
