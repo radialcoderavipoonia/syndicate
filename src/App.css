@@ -623,6 +623,10 @@
   .royalty_dragon_3 {
     min-height: 150px;
   }
+  .logo_size{
+    width: 92px;
+    height: 92px;
+  }
 }
 
 @media (min-width: 992px) {
