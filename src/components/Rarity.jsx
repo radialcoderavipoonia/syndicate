@@ -3,7 +3,7 @@ import { Row } from "react-bootstrap";
 import { Col, Container } from "react-bootstrap/esm";
 import { RatCard } from "./common/Helper";
 import { ActiveCard } from "./common/Helper";
-import side_circle from "../assets/images/png/side_circle_img.png"
+import side_circle from "../assets/images/png/side_circle_img.png";
 const Rarity = () => {
   const [active, setactive] = useState(1);
   return (
@@ -11,10 +11,15 @@ const Rarity = () => {
       <section id="rarity" className="py-5 position-relative">
         <Container className="py-xl-5 my-lg-3">
           <div>
-            <h2 className="fw-normal fs_7xl text-white ff_agnostic text-center mb-0" data-aos="fade-up"data-aos-duration="2000">
+            <h2
+              className="fw-normal fs_7xl text-white ff_agnostic text-center mb-0"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
               Rarity
-            </h2>-
-            <div className="overflow_auto w_1200 mx-auto">
+            </h2>
+            -
+            <div className="overflow_auto w_1200 mx-auto" data-aos="fade-left">
               <div className="d-flex align-items-center justify-content-xl-center mt-2 mt-lg-4 mt-xl-5 ">
                 <div className="py-2 me-1">
                   <button
@@ -74,7 +79,9 @@ const Rarity = () => {
             <Row className="mt-3 mt-lg-4 mt-xl-5 pt-md-2">
               {RatCard.map((Raritycard) => {
                 return (
-                  <Col data-aos="fade-up"data-aos-duration="2000"
+                  <Col
+                    data-aos="fade-up"
+                    data-aos-duration="2000"
                     sm={11}
                     md={6}
                     xl={4}
@@ -119,7 +126,9 @@ const Rarity = () => {
               })}
               {ActiveCard.map((Focus) => {
                 return (
-                  <Col data-aos="fade-up"data-aos-duration="2000"
+                  <Col
+                    data-aos="fade-up"
+                    data-aos-duration="2000"
                     md={6}
                     xl={4}
                     key={Focus.id}

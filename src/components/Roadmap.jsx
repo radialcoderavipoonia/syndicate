@@ -7,7 +7,7 @@ const Roadmap = () => {
     <>
       <section id="roadmap" className="roadmap_section py-lg-5">
         <Container className="py-5 mt-xl-5">
-          <h2 className="ff_agnostic text-white fs_7xl fw-normal pb-5 mb-xxl-4 text-center text-lg-start mt-xl-3">
+          <h2 className="ff_agnostic text-white fs_7xl fw-normal pb-5 mb-xxl-4 text-center text-lg-start mt-xl-3"data-aos="fade-down">
             RoadMap
           </h2>
           <Row>
