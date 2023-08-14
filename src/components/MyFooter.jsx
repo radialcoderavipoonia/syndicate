@@ -56,7 +56,7 @@ const MyFooter = () => {
               </a>
             </div>
             <div className="footer_line"></div>
-            <div className="py-4">
+            <div className="pt-4 pb-3">
               <p className="text-center text-white ff_poppins fs_sm fw-normal opcity_07">
                 Copyright©Small Arms Syndicate.com
               </p>
