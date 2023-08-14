@@ -124,8 +124,6 @@ const Rarity = () => {
               {ActiveCard.map((Focus) => {
                 return (
                   <Col
-                    data-aos="fade-up"
-                    data-aos-duration="2000"
                     md={6}
                     xl={4}
                     key={Focus.id}
