@@ -42,7 +42,7 @@ const MyHero = () => {
                 <img
                   src={heroimg3}
                   alt="hero section dragon img 3"
-                  className="object-fit-cover d-none d-lg-block hero_dragon3 dragon_height_width ani_dragons3"
+                  className="object-fit-cover d-none d-md-block hero_dragon3 dragon_height_width ani_dragons3"
                 />
                 <img
                   src={heroimg4}

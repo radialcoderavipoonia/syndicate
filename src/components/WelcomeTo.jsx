@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import welcomeTo_dragon from "../assets/images/webp/welcome_dragon.webp";
-import side_circle from "../assets/images/png/side_circle_img.png";
+import side_circle from "../assets/images/webp/side_circle_img.webp";
 const WelcomeTo = () => {
   return (
     <>
-      <section id="buy" className="py-5 position-relative mt-5">
+      <section id="buy" className="py-5 position-relative mt-sm-5">
         <Container className="pt-lg-5 mt-xl-5">
           <Row className="align-items-center justify-content-lg-between justify-content-center mt-3">
             <Col
@@ -17,18 +17,18 @@ const WelcomeTo = () => {
               data-aos-duration="2000"
             >
               <div>
-                <img className="w-100" src={welcomeTo_dragon} alt="dragon" />
+                <img className="w-100 welcome_dragon" src={welcomeTo_dragon} alt="dragon" />
               </div>
             </Col>
             <Col lg={6} data-aos="fade-left" data-aos-duration="2000">
               <div className="text-center text-lg-start mt-3 mt-lg-0">
-                <h2 className=" text-white ff_agnostic fs_6xl mb-0 fw-normal py-lg-0 py-md-4 py-sm-3 py-2">
+                <h2 className="text-white ff_agnostic fs_6xl mb-0 fw-normal py-lg-0 py-3">
                   Welcome to
-                  <span className="welcome_heading fs_7xl d-xxl-block ps-2 ms-1 ps-xxl-0 ms-xxl-0">
-                    Small Arms Syndicate
-                  </span>
                 </h2>
-                <div className="mw_575">
+                  <h2 className="ff_agnostic welcome_heading fs_49 d-xxl-block">
+                    Small Arms Syndicate
+                  </h2>
+                <div className="mw_575 mx-auto mx-lg-0">
                   <p className="ff_poppins fs_md text-white fw-normal lh_174 mb-0  pt-xl-1">
                     Mauris, ipsum auctor at aenean. Ultrices netus enim nulla
                     nisl, metus, leo, donec sed sollicitudin. Nisl, sem dapibus

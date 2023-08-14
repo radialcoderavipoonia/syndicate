@@ -1,10 +1,10 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import Royalti_tatto_1 from "../assets/images/png/royalti_tato_1.png";
-import Royalti_tatto_2 from "../assets/images/png/royalti_tato_2.png";
-import Royalti_tatto_3 from "../assets/images/png/royalti_tato_3.png";
-import Box_1 from "../assets/images/png/royality_img_left_box.png"
-import Box_2 from "../assets/images/png/royality_img_right_box.png"
+import Royalti_tatto_1 from "../assets/images/webp/royalti_tato_1.webp";
+import Royalti_tatto_2 from "../assets/images/webp/royalti_tato_2.webp";
+import Royalti_tatto_3 from "../assets/images/webp/royalti_tato_3.webp";
+import Box_1 from "../assets/images/webp/royality_img_left_box.webp"
+import Box_2 from "../assets/images/webp/royality_img_right_box.webp"
 const RoyaltyStash = () => {
   return (
     <>
@@ -37,21 +37,27 @@ const RoyaltyStash = () => {
               <div className="d-flex align-items-center justify-content-center mt-5 pt-xxl-3">
                 <div className="px-2 royalti_tatto_img_1_width">
                   <img
-                    className="w-100"
+                    className="w-100 royalty_dragon_1"
+                    height={73}
+                    width={73}
                     src={Royalti_tatto_1}
                     alt="Royalti_tatto_1"
                   />
                 </div>
                 <div className="px-2 royalti_tatto_img_2_width">
                   <img
-                    className="w-100"
+                    className="w-100 royalty_dragon_2"
+                    height={84}
+                    width={74}
                     src={Royalti_tatto_2}
                     alt="Royalti_tatto_2"
                   />
                 </div>
                 <div className="px-2 royalti_tatto_img_3_width">
                   <img
-                    className="w-100"
+                    className="w-100  royalty_dragon_3"
+                    height={73}
+                    width={74}
                     src={Royalti_tatto_3}
                     alt="Royalti_tatto_3"
                   />

@@ -1,11 +1,11 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Roadmap_dragon from "../assets/images/webp/roadmap_img.webp";
-import side_circle from "../assets/images/png/side_circle_img.png"
+import side_circle from "../assets/images/webp/side_circle_img.webp"
 const Roadmap = () => {
   return (
     <>
-      <section id="roadmap" className="roadmap_section py-lg-5">
+      <section id="roadmap" className="roadmap_section position-relative py-lg-5">
         <Container className="py-5 mt-xl-5">
           <h2 className="ff_agnostic text-white fs_7xl fw-normal pb-5 mb-xxl-4 text-center text-lg-start mt-xl-3"data-aos="fade-down">
             RoadMap
@@ -35,8 +35,8 @@ const Roadmap = () => {
               </ul>
             </Col>
           </Row>
-          <Row className="py-lg-5 pt-sm-3 pt-2 pt-3 mt-xxl-3 justify-content-lg-between justify-content-center">
-            <Col lg={6} data-aos="fade-right"data-aos-duration="2000" className="pb-xl-5">
+          <Row className="py-lg-5 pt-sm-3 pt-2 pt-3 mt-xxl-3 justify-content-lg-between justify-content-center align-items-end pb-xl-5">
+            <Col lg={6} data-aos="fade-right"data-aos-duration="2000">
               <h3 className="mb-2">Phase 3 (Funding Plans)</h3>
               <p className="ff_poppins fw-normal fs_md lh_174 mb-0 text-white pb-4">
                 Phase 3 will be activated as we find new homes for our Small <span className="d-lg-block"></span>
@@ -90,16 +90,16 @@ const Roadmap = () => {
                 - TBA - Stay tuned!
               </p>
             </Col>
-            <Col lg={6} xl={5} sm={10} xs={11} data-aos="fade-left"data-aos-duration="2200" className="pb-xl-5">
-              <img
+            <Col lg={6} xl={5} sm={10} xs={11} data-aos="fade-left"data-aos-duration="2200">
+             <div className="text-center"> <img
                 src={Roadmap_dragon}
                 alt="dragon"
-                className="w-100 mt-3 mt-lg-0 position-relative z-1"
-              />
+                className="mt-3 mt-lg-0 position-relative z-1 roadmap_dragon w-100"
+              /></div>
             </Col>
           </Row>
         </Container>
-        <div className="position-absolute top_35 d-xxl-block d-none left_-4 circle_spin">
+        <div className="position-absolute top_35 d-none d-xxl-block left_-4 circle_spin">
           <img
             height={201}
             width={201}
@@ -107,7 +107,7 @@ const Roadmap = () => {
             alt="side_circle_img"
           />
         </div>
-        <div className="position-absolute top_35 left_-4 d-xxl-block d-none circle_ani">
+        <div className="position-absolute top_35 d-none d-lg-block left_-4 circle_ani">
           <div className="bg_side_circle"></div>
         </div>
       </section>

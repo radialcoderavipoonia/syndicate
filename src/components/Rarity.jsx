@@ -3,7 +3,7 @@ import { Row } from "react-bootstrap";
 import { Col, Container } from "react-bootstrap/esm";
 import { RatCard } from "./common/Helper";
 import { ActiveCard } from "./common/Helper";
-import side_circle from "../assets/images/png/side_circle_img.png";
+import side_circle from "../assets/images/webp/side_circle_img.webp";
 const Rarity = () => {
   const [active, setactive] = useState(1);
   return (
@@ -19,7 +19,7 @@ const Rarity = () => {
               Rarity
             </h2>
             -
-            <div className="overflow_auto w_1200 mx-auto" data-aos="fade-left">
+            <div className="overflow_auto w_1200 mx-auto" >
               <div className="d-flex align-items-center justify-content-xl-center mt-2 mt-lg-4 mt-xl-5 ">
                 <div className="py-2 me-1">
                   <button
@@ -80,8 +80,6 @@ const Rarity = () => {
               {RatCard.map((Raritycard) => {
                 return (
                   <Col
-                    data-aos="fade-up"
-                    data-aos-duration="2000"
                     sm={11}
                     md={6}
                     xl={4}
@@ -93,10 +91,11 @@ const Rarity = () => {
                     }
                   >
                     <div className="rarity_card_border">
-                      <div className="p-4 m-1">
+                      <div className="p-sm-4 p-3 m-1">
                         <img
-                          className="w-100"
+                          className="w-100 ratiry_card_image"
                           src={Raritycard.imgcard}
+                         
                           alt="card_1"
                         />
                         <h2 className="fw-medium ff_poppins fs_lg text-white pt-4 mt-1 mb-0">
@@ -137,7 +136,7 @@ const Rarity = () => {
                     }
                   >
                     <div className="rarity_card_border ">
-                      <div className="p-4 m-1">
+                      <div className="p-sm-4 p-3 m-1">
                         <img
                           className="w-100"
                           src={Focus.imgcard}

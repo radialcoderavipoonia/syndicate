@@ -1,8 +1,8 @@
-/* common classes  */
+/*-------------------------------------- universal classes  --------------------------------------*/
 * {
   text-decoration: none !important;
 }
-/* utilites classes */
+/*------------------------------------------------ utilites classes -------------------------------*/
 .white_s_nowrap {
   white-space: nowrap;
 }
@@ -26,7 +26,7 @@
 .transition_3s {
   transition: all 300ms linear;
 }
-/* padding  */
+/*----------------------------------------------------- padding  -----------------------------------*/
 .py_14 {
   padding-top: 14px;
   padding-bottom: 14px;
@@ -39,7 +39,7 @@
   padding-top: 12px;
   padding-bottom: 12px;
 }
-/* nav bar  */
+/*----------------------------------------------------- nav bar  ------------------------------*/
 .sm_nav {
   position: fixed;
   z-index: 99 !important;
@@ -86,7 +86,7 @@
   width: 100%;
   left: 0;
 }
-/* hero section  */
+/*---------------------------------------------------- hero section  -----------------------------*/
 .hero_bg {
   background-image: url("../src/assets/images/webp/hero_bg.webp");
   background-position: 50%;
@@ -105,24 +105,24 @@
   opacity: 0;
   pointer-events: none;
 }
-/* animations  */
+/*------------------------------------------------------ animations  --------------------------------------*/
 .ani_dragons1 {
-  animation: drazonhero1 1.5s linear infinite alternate;
+  animation: drazonhero1 3.5s linear infinite alternate;
 }
 .ani_dragons2 {
-  animation: drazonhero2 1.9s linear infinite alternate;
+  animation: drazonhero2 3.9s linear infinite alternate;
 }
 .ani_dragons3 {
-  animation: drazonhero3 1.5s linear infinite alternate;
+  animation: drazonhero3 3.5s linear infinite alternate;
 }
 .ani_dragons4 {
-  animation: drazonhero4 1.9s linear infinite alternate;
+  animation: drazonhero4 3.9s linear infinite alternate;
 }
 .circle_spin {
   animation: circlespin 4s linear infinite;
 }
 .circle_ani {
-  animation: circleanimation 1.5s linear infinite alternate;
+  animation: circleanimation 3.5s linear infinite alternate;
 }
 .animation_preloader {
   animation: spin 4s ease infinite;
@@ -132,7 +132,7 @@
     transform: translateY(-10px) scale(1.1);
   }
   100% {
-    transform: translateY(25px) scale(0.9);
+    transform: translateY(15px) scale(1);
   }
 }
 @keyframes drazonhero2 {
@@ -140,7 +140,7 @@
     transform: translateY(0px) scale(1.1);
   }
   100% {
-    transform: translateY(25px) scale(0.9);
+    transform: translateY(15px) scale(1);
   }
 }
 @keyframes drazonhero3 {
@@ -148,7 +148,7 @@
     transform: translateY(0px) scale(1.1);
   }
   100% {
-    transform: translateY(25px) scale(0.9);
+    transform: translateY(15px) scale(1);
   }
 }
 @keyframes drazonhero4 {
@@ -156,7 +156,7 @@
     transform: translateY(0px) scale(1.1);
   }
   100% {
-    transform: translateY(25px) scale(0.9);
+    transform: translateY(15px) scale(1);
   }
 }
 @keyframes circleanimation {
@@ -198,7 +198,7 @@
     transform: rotate(360deg);
   }
 }
-/* footer  */
+/*----------------------------------------------------------- footer  ---------------------------------------*/
 .icon_hover:hover {
   box-shadow: 0 0 20px 5px #fed110;
   -webkit-transform: translateY(-5px);
@@ -214,11 +214,11 @@
   background: #fff;
   max-width: 1320px;
 }
-  .h_w_dragon_footer {
-    width: 145px !important;
-    height: 145px !important;
-  }
-/* side circle  */
+.h_w_dragon_footer {
+  width: 145px !important;
+  height: 145px !important;
+}
+/*--------------------------------------------------------- side circle  ----------------------------------------*/
 .bg_side_circle {
   width: 334px;
   height: 334px;
@@ -226,7 +226,7 @@
   background: #781d00;
   filter: blur(250px);
 }
-/* max-width  */
+/*----------------------------------------------------- max-width  -----------------------------------*/
 .mw_539 {
   max-width: 529px;
 }
@@ -239,7 +239,7 @@
 .w_1200 {
   max-width: 1200px !important;
 }
-/* top bottom left right  */
+/*-------------------------------------------------- top bottom left right  ------------------------------*/
 .left_-5 {
   left: -5%;
 }
@@ -267,7 +267,7 @@
 .bottom_-22 {
   bottom: -22%;
 }
-/* rarity-section */
+/*--------------------------------------------------- rarity-section ------------------------------*/
 .d_none {
   display: none;
 }
@@ -309,7 +309,7 @@
   padding-left: 32px;
   padding-right: 32px;
 }
-/*----------- royalty stash section --------------------*/
+/*--------------------------------------- royalty stash section --------------------*/
 .royalty_stash_bg_img {
   background-image: url(./assets/images/webp//royaltystay_bg.webp);
   background-size: cover;
@@ -397,11 +397,12 @@
   width: 100%;
   height: 50px;
 }
-/*------------------------------------ preloader ----------------*/
+/*------------------------------------ preloader ------------------------------*/
 .z_index_50 {
   z-index: 50;
 }
-/* back to top */
+.fs_49{font-size: 30px;}
+/*------------------------------------- back to top --------------------------------*/
 .c_pointer {
   cursor: pointer;
 }
@@ -440,23 +441,50 @@
   left: -1%;
   width: 70px;
 }
-/* media screen  */
+/*--------------------------------------------------- media screen  -----------------------------*/
 @media (min-width: 576px) {
   .dragon_height_width {
     width: 100% !important;
     max-width: 200px !important;
     height: 100% !important;
   }
+  .fs_49{font-size: 35px;}
   .game_play_btn {
     bottom: -5%;
     left: -5%;
     width: 140px;
   }
+  .ratiry_card_image {
+    min-height: 238px !important;
+  }
+  .game_dragon {
+    min-height: 296px !important;
+  }
+  .welcome_dragon {
+    min-height: 269px !important;
+  }
+  .roadmap_dragon{
+    min-height: 269px !important;
+  }
+  .team_card_image{
+    min-height:262px !important;
+  }
+  .royalty_dragon_1{
+  min-height: 70px !important;}
+  .royalty_dragon_2{
+    min-height: 74px !important;
+  }
+  .royalty_dragon_3{
+  min-height: 70px !important;}
 }
 @media (min-width: 768px) {
   .h_w_dragon_footer {
     width: 200px !important;
     height: 200px !important;
+  }
+  .logo_size{
+    width: 92px;
+    height: 92px;
   }
 }
 @media (min-width: 992px) {
@@ -506,28 +534,29 @@
   .overflow_auto {
     overflow: unset !important;
   }
+  .fs_49{font-size: 40px;}
 }
 @media (min-width: 1400px) {
   .hero_dragon1 {
-    width: 380px !important;
-    height: 453px !important;
+    width: 502px !important;
+    height: 502px !important;
   }
   .hero_dragon2 {
-    width: 280px !important;
-    height: 356px !important;
+    width: 406px !important;
+    height: 406px !important;
   }
   .hero_dragon3 {
-    width: 250px !important;
-    height: 310px !important;
+    width: 363px !important;
+    height: 363px !important;
   }
   .hero_dragon4 {
-    width: 380px !important;
-    height: 450px !important;
+    width: 502px !important;
+    height: 502px !important;
   }
   .dragon_height_width {
     width: 100% !important;
-    max-width: 280px !important;
-    height: 100% !important;
+    max-width: 300px !important;
+    height: 300% !important;
   }
   .trans_70X {
     transform: translateX(70px);
@@ -544,4 +573,5 @@
     left: -7%;
     max-width: 250px;
   }
+  .fs_49{font-size: 49px;}
 }
