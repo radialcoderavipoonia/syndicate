@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-import { Row } from "react-bootstrap";
-import { Col, Container } from "react-bootstrap/esm";
-import { RatCard } from "./common/Helper";
-import { ActiveCard } from "./common/Helper";
-import side_circle from "../assets/images/webp/side_circle_img.webp";
+import React, { useState } from"react";
+import { Row } from"react-bootstrap";
+import { Col, Container } from"react-bootstrap/esm";
+import { RatCard } from"./common/Helper";
+import { ActiveCard } from"./common/Helper";
+import side_circle from"../assets/images/webp/side_circle_img.webp";
 const Rarity = () => {
   const [active, setactive] = useState(1);
   return (
@@ -18,9 +18,8 @@ const Rarity = () => {
             >
               Rarity
             </h2>
-            -
             <div className="overflow_auto w_1200 mx-auto" data-aos="fade-left">
-              <div className="d-flex align-items-center justify-content-xl-center mt-2 mt-lg-4 mt-xl-5 ">
+              <div className="d-flex align-items-center justify-content-xl-center mt-2 mt-lg-4 mt-xl-5">
                 <div className="py-2 me-1">
                   <button
                     onClick={() => {
@@ -28,8 +27,8 @@ const Rarity = () => {
                     }}
                     className={
                       active === 1
-                        ? "rounded-5 border-0 rarity_sec_btn_p px-4 btn_bg text-white ff_agnostic fs_lg fw-normal"
-                        : "rounded-5 border-0 rarity_sec_btn_p  px-4 btn_rarity_bg_linier_2 text-white ff_agnostic fs_lg fw-normal"
+                        ?"rounded-5 border-0 rarity_sec_btn_p px-4 btn_bg text-white ff_agnostic fs_lg fw-normal"
+                        :"rounded-5 border-0 rarity_sec_btn_p  px-4 btn_rarity_bg_linier_2 text-white ff_agnostic fs_lg fw-normal"
                     }
                   >
                     Background
@@ -42,8 +41,8 @@ const Rarity = () => {
                     }}
                     className={
                       active === 2
-                        ? "rounded-5 border-0 rarity_sec_btn_p px-4 btn_bg text-white ff_agnostic fs_lg fw-normal"
-                        : "rounded-5 border-0 rarity_sec_btn_p px-4 btn_rarity_bg_linier_2 text-white ff_agnostic fs_lg fw-normal"
+                        ?"rounded-5 border-0 rarity_sec_btn_p px-4 btn_bg text-white ff_agnostic fs_lg fw-normal"
+                        :"rounded-5 border-0 rarity_sec_btn_p px-4 btn_rarity_bg_linier_2 text-white ff_agnostic fs_lg fw-normal"
                     }
                   >
                     Accessories
@@ -88,8 +87,8 @@ const Rarity = () => {
                     key={Raritycard.id}
                     className={
                       active === 1
-                        ? "mt-4 pt-2 pb-1 d-block mx-auto mx-md-0"
-                        : "mt-4 pt-2 pb-1 d-none mx-auto mx-md-0"
+                        ?"mt-4 pt-2 pb-1 d-block mx-auto mx-md-0"
+                        :"mt-4 pt-2 pb-1 d-none mx-auto mx-md-0"
                     }
                   >
                     <div className="rarity_card_border">
@@ -133,11 +132,11 @@ const Rarity = () => {
                     key={Focus.id}
                     className={
                       active === 2
-                        ? "mt-4 pt-md-2 pb-1 d-block"
-                        : "mt-4 pt-md-2 pb-1 d-none"
+                        ?"mt-4 pt-md-2 pb-1 d-block"
+                        :"mt-4 pt-md-2 pb-1 d-none"
                     }
                   >
-                    <div className="rarity_card_border ">
+                    <div className="rarity_card_border">
                       <div className="p-sm-4 p-3 m-1">
                         <img
                           className="w-100"

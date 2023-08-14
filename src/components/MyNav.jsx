@@ -1,8 +1,8 @@
-import { React, useState } from "react";
-import { HiMenuAlt1 } from "react-icons/hi";
-import { AiOutlineClose } from "react-icons/ai";
-import { Nav } from "react-bootstrap";
-import nav_logo from "../assets/images/webp/page_Logo.webp";
+import { React, useState } from"react";
+import { HiMenuAlt1 } from"react-icons/hi";
+import { AiOutlineClose } from"react-icons/ai";
+import { Nav } from"react-bootstrap";
+import nav_logo from"../assets/images/webp/page_Logo.webp";
 
 const MyNav = () => {
   const [Show, setShow] = useState(true);
@@ -21,7 +21,7 @@ const MyNav = () => {
   }
   return (
     <>
-      <Nav className=" bg-black position-fixed top-0 w-100 z-3">
+      <Nav className="bg-black position-fixed top-0 w-100 z-3">
         <div className="container d-flex justify-content-between align-items-center py-1">
           <div id="dis_none">
             <a href="#">
@@ -37,32 +37,32 @@ const MyNav = () => {
           <div className="d-lg-flex align-items-center d-none d-lg-block">
             <ul className="d-flex justify-content-between list-unstyled align-items-center mb-0">
               <li className="pe-xl-4 ff_agnostic fw-normal fs_md mb-0">
-                <a href="#buy" className="text-white">
+                <a href="#buy"className="text-white">
                   BUY A SAS
                 </a>
               </li>
               <li className="ps-2 ms-1 pe-xl-4 ff_agnostic fw-normal fs_md mb-0">
-                <a href="#roadmap" className="text-white">
+                <a href="#roadmap"className="text-white">
                   RoadMap
                 </a>
               </li>
               <li className="ps-2 ms-1 pe-xl-4 ff_agnostic fw-normal fs_md mb-0">
-                <a href="#team" className="text-white">
+                <a href="#team"className="text-white">
                   team
                 </a>
               </li>
               <li className="ps-2 ms-1 pe-xl-4 ff_agnostic fw-normal fs_md mb-0">
-                <a href="#rarity" className="text-white">
+                <a href="#rarity"className="text-white">
                   Rarity
                 </a>
               </li>
               <li className="ps-2 ms-1 pe-xl-4 ff_agnostic fw-normal fs_md mb-0">
-                <a href="#stash" className="text-white">
+                <a href="#stash"className="text-white">
                   Stash
                 </a>
               </li>
               <li className="ps-2 ms-1 pe-xxl-4 ff_agnostic fw-normal fs_md mb-0">
-                <a href="#game" className="text-white">
+                <a href="#game"className="text-white">
                   Syndicate Game
                 </a>
               </li>
@@ -75,14 +75,14 @@ const MyNav = () => {
           </div>
 
           <div
-            className="d-flex justify-content-between flex-column d-lg-none "
+            className="d-flex justify-content-between flex-column d-lg-none"
             onClick={showNav}
           >
             <h2 className="position-relative text-white">
               {Show ? <HiMenuAlt1 /> : <AiOutlineClose />}
             </h2>
           </div>
-          <div className={`d-flex sm_nav d-lg-none ${Show ? "" : "start-0"}`}>
+          <div className={`d-flex sm_nav d-lg-none ${Show ?"":"start-0"}`}>
             <ul
               id="nav_bar_animation"
               className="d-flex justify-content-between list-unstyled flex-column gap-3 align-items-center mb-0 ps-0 nav_animation"
@@ -91,7 +91,7 @@ const MyNav = () => {
                 onClick={showNav}
                 className="ff_agnostic fw-normal fs_md mb-0"
               >
-                <a href="#buy" className="text-white">
+                <a href="#buy"className="text-white">
                   BUY A SAS
                 </a>
               </li>
@@ -99,7 +99,7 @@ const MyNav = () => {
                 onClick={showNav}
                 className="ff_agnostic fw-normal fs_md mb-0"
               >
-                <a href="#roadmap" className="text-white">
+                <a href="#roadmap"className="text-white">
                   RoadMap
                 </a>
               </li>
@@ -107,7 +107,7 @@ const MyNav = () => {
                 onClick={showNav}
                 className="ff_agnostic fw-normal fs_md mb-0"
               >
-                <a href="#team" className="text-white">
+                <a href="#team"className="text-white">
                   team
                 </a>
               </li>
@@ -115,7 +115,7 @@ const MyNav = () => {
                 onClick={showNav}
                 className="ff_agnostic fw-normal fs_md mb-0"
               >
-                <a href="#rarity" className="text-white">
+                <a href="#rarity"className="text-white">
                   Rarity
                 </a>
               </li>
@@ -123,7 +123,7 @@ const MyNav = () => {
                 onClick={showNav}
                 className="ff_agnostic fw-normal fs_md mb-0"
               >
-                <a href="#stash" className="text-white">
+                <a href="#stash"className="text-white">
                   Stash
                 </a>
               </li>
@@ -131,7 +131,7 @@ const MyNav = () => {
                 onClick={showNav}
                 className="ff_agnostic fw-normal fs_md mb-0"
               >
-                <a href="#game" className="text-white">
+                <a href="#game"className="text-white">
                   Syndicate Game
                 </a>
               </li>
