@@ -362,9 +362,9 @@
   display: inline-block;
   border-radius: 17px;
   border-radius: 17.34px;
-background: linear-gradient(135deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.03) 100%);
-backdrop-filter: blur(31.478700637817383px);
-transition: 0.3s ease-in-out;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.03) 100%);
+  backdrop-filter: blur(31.478700637817383px);
+  transition: 0.3s ease-in-out;
 }
 
 .rarity_card_border::before {
@@ -381,7 +381,6 @@ transition: 0.3s ease-in-out;
   mask-composite: exclude;
   pointer-events: none;
 }
-
 
 .rarity_card_border:hover {
   box-shadow: 0 0 30px 3px #ff5602b4;
