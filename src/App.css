@@ -2,43 +2,53 @@
 * {
   text-decoration: none !important;
 }
+
 /*------------------------------------------------ utilites classes -------------------------------*/
 .white_s_nowrap {
   white-space: nowrap;
 }
+
 .opcity_07 {
   opacity: 0.7;
 }
+
 .btn_bg {
   background: linear-gradient(180deg, #fed710 0%, #ff5001 100%), #ffae01;
   transition: all 300ms linear;
 }
+
 .btn_bg:hover {
   box-shadow: 0px 2px 12px #ff5001;
   transform: scale(1.02);
 }
+
 .welcome_heading {
   background: linear-gradient(180deg, #fed710 0%, #ff5001 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .transition_3s {
   transition: all 300ms linear;
 }
+
 /*----------------------------------------------------- padding  -----------------------------------*/
 .py_14 {
   padding-top: 14px;
   padding-bottom: 14px;
 }
+
 .px_20 {
   padding-left: 20px;
   padding-right: 20px;
 }
+
 .py_12 {
   padding-top: 12px;
   padding-bottom: 12px;
 }
+
 /*----------------------------------------------------- nav bar  ------------------------------*/
 .sm_nav {
   position: fixed;
@@ -54,23 +64,28 @@
   align-items: center;
   transition: all 300ms linear !important;
 }
+
 .nav_animation {
   transform: translateY(100px);
   pointer-events: none;
   opacity: 0;
   transition: 1000ms linear;
 }
+
 .opennav {
   transform: translateY(0px);
   pointer-events: unset;
   opacity: 1;
 }
+
 .shadow {
   box-shadow: 10px 10px 10px 10px rgba(255, 174, 1, 1);
 }
+
 .nav ul li a {
   position: relative;
 }
+
 .nav ul li a::before {
   position: absolute;
   content: "";
@@ -82,10 +97,12 @@
   border-radius: 20px;
   transition: all 0.3s linear !important;
 }
+
 .nav ul li a:hover::before {
   width: 100%;
   left: 0;
 }
+
 /*---------------------------------------------------- hero section  -----------------------------*/
 .hero_bg {
   background-image: url("../src/assets/images/webp/hero_bg.webp");
@@ -93,131 +110,165 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .dragon_height_width {
   width: 100% !important;
   max-width: 150px !important;
   height: 100% !important;
 }
+
 .left_5 {
   left: 10%;
 }
+
 .logo_not_visible {
   opacity: 0;
   pointer-events: none;
 }
+
 /*------------------------------------------------------ animations  --------------------------------------*/
 .ani_dragons1 {
   animation: drazonhero1 3.5s linear infinite alternate;
 }
+
 .ani_dragons2 {
   animation: drazonhero2 3.9s linear infinite alternate;
 }
+
 .ani_dragons3 {
   animation: drazonhero3 3.5s linear infinite alternate;
 }
+
 .ani_dragons4 {
   animation: drazonhero4 3.9s linear infinite alternate;
 }
+
 .circle_spin {
   animation: circlespin 4s linear infinite;
 }
+
 .circle_ani {
   animation: circleanimation 3.5s linear infinite alternate;
 }
+
 .animation_preloader {
   animation: spin 4s ease infinite;
 }
+
 @keyframes drazonhero1 {
   0% {
     transform: translateY(-10px) scale(1.1);
   }
+
   100% {
     transform: translateY(15px) scale(1);
   }
 }
+
 @keyframes drazonhero2 {
   0% {
     transform: translateY(0px) scale(1.1);
   }
+
   100% {
     transform: translateY(15px) scale(1);
   }
 }
+
 @keyframes drazonhero3 {
   0% {
     transform: translateY(0px) scale(1.1);
   }
+
   100% {
     transform: translateY(15px) scale(1);
   }
 }
+
 @keyframes drazonhero4 {
   0% {
     transform: translateY(0px) scale(1.1);
   }
+
   100% {
     transform: translateY(15px) scale(1);
   }
 }
+
 @keyframes circleanimation {
   0% {
     transform: scale(0.8);
   }
+
   100% {
     transform: scale(1);
   }
 }
+
 @keyframes spin {
   0% {
     transform: rotate(0deg);
   }
+
   20% {
     transform: rotate(180deg);
   }
+
   30% {
     transform: rotate(150deg);
   }
+
   50% {
     transform: rotate(360deg);
   }
+
   60% {
     transform: rotate(330deg);
   }
+
   80% {
     transform: rotate(540deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
 }
+
 @keyframes circlespin {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
 }
+
 /*----------------------------------------------------------- footer  ---------------------------------------*/
 .icon_hover:hover {
   box-shadow: 0 0 20px 5px #fed110;
   -webkit-transform: translateY(-5px);
   transform: translateY(-5px);
 }
+
 .icon_hover {
   border-radius: 50%;
   transition: all 0.3s ease-in-out;
 }
+
 .footer_line {
   height: 1px;
   opacity: 0.1;
   background: #fff;
   max-width: 1320px;
 }
+
 .h_w_dragon_footer {
   width: 145px !important;
   height: 145px !important;
 }
+
 /*--------------------------------------------------------- side circle  ----------------------------------------*/
 .bg_side_circle {
   width: 334px;
@@ -226,74 +277,91 @@
   background: #781d00;
   filter: blur(250px);
 }
+
 /*----------------------------------------------------- max-width  -----------------------------------*/
 .mw_539 {
   max-width: 529px;
 }
+
 .mw_575 {
   max-width: 575px !important;
 }
+
 .mw_941 {
   max-width: 941px;
 }
+
 .w_1200 {
   max-width: 1200px !important;
 }
+
 /*-------------------------------------------------- top bottom left right  ------------------------------*/
 .left_-5 {
   left: -5%;
 }
+
 .right_-5 {
   right: -5%;
 }
+
 .left_-4 {
   left: -4%;
 }
+
 .top_35 {
   top: 35%;
 }
+
 .top_-12 {
   top: -12%;
 }
+
 .bottom_-12 {
   bottom: -12%;
 }
+
 .bottom_-20 {
   bottom: -20%;
 }
+
 .top_10 {
   top: 10%;
 }
+
 .bottom_-22 {
   bottom: -22%;
 }
+
 /*--------------------------------------------------- rarity-section ------------------------------*/
 .d_none {
   display: none;
 }
+
 .btn_rarity_bg_linier {
   background: linear-gradient(180deg, #1b1b1b 0%, #090909 100%);
   transition: 0.3s ease-in-out;
 }
+
 .btn_rarity_bg_linier_2 {
   background: linear-gradient(180deg, #1b1b1b 0%, #090909 100%);
   transition: 0.3s ease-in-out;
 }
+
 .btn_rarity_bg_linier:hover {
   background: linear-gradient(180deg, #fed710 0%, #ff5001 100%), #ffae01;
 }
+
 .rarity_sec_btn_p {
   padding-top: 12px;
   padding-bottom: 12px;
 }
+
 .rarity_card_border {
   border: 1.26px solid #ff5001;
   border-radius: 17.34px;
-  background: linear-gradient(
-    135deg,
-    rgba(255, 255, 255, 0.1) 0%,
-    rgba(255, 255, 255, 0.03) 100%
-  );
+  background: linear-gradient(135deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0.03) 100%);
   backdrop-filter: blur(31.478700637817383px);
   transition: 0.3s ease-in-out;
 }
@@ -314,33 +382,39 @@
 .rarity_card_border:hover {
   box-shadow: 0 0 30px 3px #ff5602b4;
 }
+
 .text_color_linier {
   background: linear-gradient(#fed710, #ff5001);
   -webkit-background-clip: text;
   color: transparent;
 }
+
 .rarity_btn_buynow_px {
   padding-left: 32px;
   padding-right: 32px;
 }
+
 /*--------------------------------------- royalty stash section --------------------*/
 .royalty_stash_bg_img {
   background-image: url(./assets/images/webp//royaltystay_bg.webp);
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .royalti_stash_linier_bg {
   position: relative;
   margin: 5px;
   border-radius: 17.34px;
-  background: linear-gradient(
-    135deg,
-    rgba(255, 255, 255, 0.1) 0%,
-    rgba(255, 255, 255, 0.03) 100%
-  );
+  background: linear-gradient(135deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0.03) 100%);
   backdrop-filter: blur(31.478700637817383px);
   transition: 0.3s ease-in-out;
   max-width: 1136px;
+}
+
+.padding_1 {
+  padding-top: 1px;
 }
 
 .royalti_stash_linier_bg::before {
@@ -355,22 +429,27 @@
   mask-composite: exclude;
   pointer-events: none;
 }
+
 .royalty_left_box {
   left: -10%;
   bottom: -30px;
   max-width: 100px;
 }
+
 .royalty_right_box {
   right: -5%;
   bottom: -40px;
   max-width: 90px;
 }
+
 .overflow_auto {
   overflow: auto;
 }
+
 .d_block {
   display: block;
 }
+
 ::-webkit-scrollbar {
   display: none;
 }
@@ -396,6 +475,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .roadmap_section ul li {
   color: #fff;
   font-family: "Poppins";
@@ -403,27 +483,32 @@
   font-weight: 400;
   line-height: 174%;
 }
+
 .roadmap_numbers_linear {
   background: linear-gradient(180deg, #fed710 0%, #ff5001 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 /*------------------------------------------ team section -------------------------------*/
 .team_bg {
   background-image: url(../src/assets/images/webp/team_bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .on_image_text {
   bottom: 4%;
   left: 50%;
   transform: translateX(-50%);
 }
+
 .team_card:hover {
   box-shadow: 0px 4px 41px 0px rgba(254, 215, 16, 0.5);
   border-radius: 16px;
 }
+
 .team_section::before {
   content: " ";
   position: absolute;
@@ -434,17 +519,21 @@
   width: 100%;
   height: 50px;
 }
+
 /*------------------------------------ preloader ------------------------------*/
 .z_index_50 {
   z-index: 50;
 }
+
 .fs_49 {
   font-size: 30px;
 }
+
 /*------------------------------------- back to top --------------------------------*/
 .c_pointer {
   cursor: pointer;
 }
+
 .backtotop_icon {
   height: 50px;
   width: 50px;
@@ -459,27 +548,33 @@
   transition: all 250ms linear;
   animation: scale 2s linear infinite;
 }
+
 @keyframes scale {
   0% {
     transform: scale(1) rotate(270deg) translate(4px);
   }
+
   50% {
     transform: scale(1.1) rotate(270deg) translate(-3px);
   }
+
   100% {
     transform: scale(1) rotate(270deg) translate(4px);
   }
 }
+
 .backtotop_icon:hover {
   background-color: black;
   border: 2px solid #ff5001;
 }
+
 /*---------------------------------------------------- game section  ---------------------------*/
 .game_play_btn {
   bottom: -5%;
   left: -1%;
   width: 70px;
 }
+
 /*--------------------------------------------------- media screen  -----------------------------*/
 @media (min-width: 576px) {
   .dragon_height_width {
@@ -487,152 +582,192 @@
     max-width: 200px !important;
     height: 100% !important;
   }
+
   .fs_49 {
     font-size: 35px;
   }
+
   .game_play_btn {
     bottom: -5%;
     left: -5%;
     width: 140px;
   }
+
   .royalty_dragon_1 {
     min-height: 180px;
   }
+
   .royalty_dragon_2 {
     min-height: 180px;
   }
+
   .royalty_dragon_3 {
     min-height: 180px;
   }
 }
+
 @media (min-width: 768px) {
   .h_w_dragon_footer {
     width: 200px !important;
     height: 200px !important;
   }
+
   .royalty_dragon_1 {
     min-height: 150px;
   }
+
   .royalty_dragon_2 {
     min-height: 150px;
   }
+
   .royalty_dragon_3 {
     min-height: 150px;
   }
 }
+
 @media (min-width: 992px) {
   .h_w_dragon_footer {
     width: 306px !important;
     height: 307px !important;
   }
+
   .lh_150 {
     line-height: 150%;
   }
+
   .lh_174 {
     line-height: 174%;
   }
+
   .royalty_left_box {
     left: -5%;
     max-width: 140px;
   }
+
   .royalty_right_box {
     right: -5%;
     max-width: 180px;
   }
+
   .royalty_dragon_1 {
     min-height: 210px;
   }
+
   .royalty_dragon_2 {
     min-height: 210px;
   }
+
   .royalty_dragon_3 {
     min-height: 210px;
   }
-  .footer_page_logo{
+
+  .footer_page_logo {
     height: 150px;
     width: 150px;
   }
 }
+
 @media (min-width: 1200px) {
   .min_vh_100_xxl {
     min-height: 100vh;
   }
+
   .dragon_height_width {
     width: 100% !important;
     max-width: 280px !important;
     height: 100% !important;
   }
+
   .position_absolute {
     position: absolute !important;
   }
+
   .h_w_dragon_footer {
     width: 350px !important;
     height: 350px !important;
   }
+
   .royalty_left_box {
     left: -3%;
     max-width: 200px;
   }
+
   .royalty_right_box {
     right: -4%;
     max-width: 180px;
   }
+
   .overflow_auto {
     overflow: unset !important;
   }
+
   .royalty_dragon_1 {
     min-height: 220px;
   }
+
   .royalty_dragon_2 {
     min-height: 220px;
   }
+
   .royalty_dragon_3 {
     min-height: 220px;
   }
+
   .fs_49 {
     font-size: 40px;
   }
 }
+
 @media (min-width: 1400px) {
   .hero_dragon1 {
     width: 502px !important;
     height: 502px !important;
   }
+
   .hero_dragon2 {
     width: 406px !important;
     height: 406px !important;
   }
+
   .hero_dragon3 {
     width: 363px !important;
     height: 363px !important;
   }
+
   .hero_dragon4 {
     width: 502px !important;
     height: 502px !important;
   }
+
   .dragon_height_width {
     width: 100% !important;
     max-width: 300px !important;
     height: 300% !important;
   }
+
   .trans_70X {
     transform: translateX(70px);
   }
+
   .h_w_dragon_footer {
     width: 406px !important;
     height: 407px !important;
   }
+
   .royalty_right_box {
     right: -10%;
     max-width: 300px;
   }
+
   .royalty_left_box {
     left: -7%;
     max-width: 250px;
   }
+
   .fs_49 {
     font-size: 49px;
   }
+
   .royalty_dragon_1 {
     min-height: 250px;
   }
