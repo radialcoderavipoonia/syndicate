@@ -485,6 +485,10 @@
   .w_sm_unset {
     width: unset !important;
   }
+  .footer_page_logo{
+    width: 149px;
+    height: 149px;
+  }
 }
 @media (min-width: 768px) {
   .h_w_dragon_footer {

@@ -20,23 +20,23 @@ const MyFooter = () => {
           <div className="text-center pt-xxl-5">
             <a href="#">
               <img
-                height={149}
-                width={149}
+                height={100}
+                width={100}
                 src={footerlogo}
-                alt="footer page logo"
+                alt="footer_page_logo"
               />
             </a>
-            <div className="d-flex justify-content-center align-items-center py-5">
-              <a href="https://twitter.com/">
+            <div className="d-flex justify-content-center align-items-center py-sm-5 py-4">
+              <a href="https://twitter.com/" target="_blank">
                 <img
                   height={47}
                   width={47}
                   src={twitter_icon}
                   alt="twitter_icon_footer"
-                  className="mx-2 icon_hover"
+                  className="mx-2 icon_hover "
                 />
               </a>
-              <a href="https://discord.com/">
+              <a href="https://discord.com/ " target="_blank">
                 <img
                   height={47}
                   width={47}
@@ -45,7 +45,7 @@ const MyFooter = () => {
                   className="mx-2 icon_hover"
                 />
               </a>
-              <a href="">
+              <a href="https://www.flaticon.com/free-icons/boat" target="_blank">
                 <img
                   height={47}
                   width={47}
