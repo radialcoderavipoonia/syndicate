@@ -548,6 +548,10 @@
   .royalty_dragon_3 {
     min-height: 210px;
   }
+  .footer_page_logo{
+    height: 150px;
+    width: 150px;
+  }
 }
 @media (min-width: 1200px) {
   .min_vh_100_xxl {

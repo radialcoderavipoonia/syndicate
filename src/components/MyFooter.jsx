@@ -20,6 +20,7 @@ const MyFooter = () => {
           <div className="text-center pt-xxl-5">
             <a href="#">
               <img
+                className="footer_page_logo"
                 height={100}
                 width={100}
                 src={footerlogo}
