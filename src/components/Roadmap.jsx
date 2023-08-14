@@ -91,13 +91,11 @@ const Roadmap = () => {
               </p>
             </Col>
             <Col lg={6} xl={5} sm={10} xs={11} data-aos="fade-left"data-aos-duration="2200">
-              <img
+             <div className="text-center"> <img
                 src={Roadmap_dragon}
                 alt="dragon"
-                className="w-100 mt-3 mt-lg-0 position-relative z-1 w_sm_unset h_sm_unset roadmap_dragon"
-                height={269}
-                width={269}
-              />
+                className="mt-3 mt-lg-0 position-relative z-1 roadmap_dragon w-100"
+              /></div>
             </Col>
           </Row>
         </Container>

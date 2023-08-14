@@ -9,14 +9,14 @@ const Team = () => {
     <>
       <section id="team" className="team_bg py-5 position-relative team_section">
         <Container className="py-5">
-          <h2 className="ff_agnostic text-white mb-xxl-5 pb-lg-5 pb-4 fs_6xl fw-normal text-center">
+          <h2 className="ff_agnostic text-white mb-xxl-5 pb-lg-5 pb-4 fs_7xl fw-normal text-center">
             Team
           </h2>
           <Row className="justify-content-center">
             <Col lg={4} md={6} data-aos="fade-right"data-aos-duration="2000">
               <div className="position-relative">
                 <div className="team_card transition_3s">
-                  <img className="w-100 w_sm_unset h_sm_unset team_card_image" height={361} width={296}  src={dragon1} alt="dragon" />
+                  <img className="w-100 w_sm_unset h_sm_unset team_card_image" src={dragon1} alt="dragon" />
                 </div>
                 <div className="position-absolute on_image_text">
                   <h4 className="ff_agnostic fs_4xl fw-normal text-white text-center white_s_nowrap">
@@ -31,7 +31,7 @@ const Team = () => {
             <Col lg={4} md={6} data-aos="fade-up"data-aos-duration="2000">
               <div className="position-relative pt-3 pt-md-0">
                 <div className="team_card transition_3s">
-                  <img className="w-100 w_sm_unset h_sm_unset team_card_image" height={361} width={296} src={dragon2} alt="dragon" />
+                  <img className="w-100 w_sm_unset h_sm_unset team_card_image" src={dragon2} alt="dragon" />
                 </div>
                 <div className="position-absolute on_image_text">
                   <h4 className="ff_agnostic fs_4xl fw-normal text-white text-center white_s_nowrap">
@@ -46,7 +46,7 @@ const Team = () => {
             <Col lg={4} md={6} data-aos="fade-left"data-aos-duration="2000">
               <div className="position-relative pt-3 pt-lg-0">
                 <div className="team_card transition_3s">
-                  <img className="w-100 w_sm_unset h_sm_unset team_card_image" height={361} width={296} src={dragon3} alt="dragon" />
+                  <img className="w-100 w_sm_unset h_sm_unset team_card_image" src={dragon3} alt="dragon" />
                 </div>
                 <div className="position-absolute on_image_text">
                   <h4 className="ff_agnostic fs_4xl fw-normal text-white text-center white_s_nowrap">

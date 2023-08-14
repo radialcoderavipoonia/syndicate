@@ -37,7 +37,7 @@ const RoyaltyStash = () => {
               <div className="d-flex align-items-center justify-content-center mt-5 pt-xxl-3">
                 <div className="px-2 royalti_tatto_img_1_width">
                   <img
-                    className="w-100 w_sm_unset h_sm_unset royalty_dragon_1"
+                    className="w-100 royalty_dragon_1"
                     height={73}
                     width={73}
                     src={Royalti_tatto_1}
@@ -46,7 +46,7 @@ const RoyaltyStash = () => {
                 </div>
                 <div className="px-2 royalti_tatto_img_2_width">
                   <img
-                    className="w-100 w_sm_unset h_sm_unset royalty_dragon_2"
+                    className="w-100 royalty_dragon_2"
                     height={84}
                     width={74}
                     src={Royalti_tatto_2}
@@ -55,7 +55,7 @@ const RoyaltyStash = () => {
                 </div>
                 <div className="px-2 royalti_tatto_img_3_width">
                   <img
-                    className="w-100 w_sm_unset h_sm_unset  royalty_dragon_3"
+                    className="w-100  royalty_dragon_3"
                     height={73}
                     width={74}
                     src={Royalti_tatto_3}
