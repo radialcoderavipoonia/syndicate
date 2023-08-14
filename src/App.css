@@ -405,22 +405,28 @@
 }
 
 .royalti_stash_linier_bg {
-  border: 1.26px solid #ff5001;
-  border-radius: 17px;
-  backdrop-filter: blur(27.21642303466797px);
+  position: relative;
+  margin: 5px;
+  border-radius: 17.34px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.03) 100%);
+  backdrop-filter: blur(31.478700637817383px);
+  transition: 0.3s ease-in-out;
   max-width: 1136px;
 }
 
-.royalti_tatto_img_1_width {
-  max-width: 280px;
-}
-
-.royalti_tatto_img_2_width {
-  max-width: 246px;
-}
-
-.royalti_tatto_img_3_width {
-  max-width: 265px;
+.royalti_stash_linier_bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 14px;
+  padding: 1.26px;
+  background-image: linear-gradient(180deg, #FF5001, #FED710);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
 }
 
 .royalty_left_box {
@@ -447,7 +453,18 @@
   display: none;
 }
 
-/* ----------------------------------- Roadmap section ----------------------------- */
+.royalty_dragon_1 {
+  min-height: 120px;
+}
+
+.royalty_dragon_2 {
+  min-height: 120px;
+}
+
+.royalty_dragon_3 {
+  min-height: 120px;
+}
+
 .roadmap_section h3 {
   font-family: "Agnostic";
   font-size: var(--fs-5xl);
@@ -566,12 +583,30 @@
     left: -5%;
     width: 140px;
   }
+  .royalty_dragon_1{
+    min-height: 180px;
+  }
+  .royalty_dragon_2{
+    min-height: 180px;
+  }
+  .royalty_dragon_3{
+    min-height: 180px;
+  }
 }
 
 @media (min-width: 768px) {
   .h_w_dragon_footer {
     width: 200px !important;
     height: 200px !important;
+  }
+  .royalty_dragon_1{
+    min-height: 150px;
+  }
+  .royalty_dragon_2{
+    min-height: 150px;
+  }
+  .royalty_dragon_3{
+    min-height: 150px;
   }
 }
 
@@ -596,7 +631,16 @@
 
   .royalty_right_box {
     right: -5%;
-    max-width: 160px;
+    max-width: 180px;
+  }
+  .royalty_dragon_1{
+    min-height: 210px;
+  }
+  .royalty_dragon_2{
+    min-height: 210px;
+  }
+  .royalty_dragon_3{
+    min-height: 210px;
   }
 }
 
@@ -632,6 +676,14 @@
 
   .overflow_auto {
     overflow: unset !important;
+  }.royalty_dragon_1{
+    min-height: 220px;
+  }
+  .royalty_dragon_2{
+    min-height: 220px;
+  }
+  .royalty_dragon_3{
+    min-height: 220px;
   }
 }
 
@@ -679,5 +731,17 @@
   .royalty_left_box {
     left: -7%;
     max-width: 250px;
+  }
+
+  .royalty_dragon_1 {
+    min-height: 250px;
+  }
+
+  .royalty_dragon_2 {
+    min-height: 250px;
+  }
+
+  .royalty_dragon_3 {
+    min-height: 250px;
   }
 }
