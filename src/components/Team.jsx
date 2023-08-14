@@ -3,7 +3,7 @@ import { Col, Container, Row } from"react-bootstrap";
 import dragon1 from"../assets/images/webp/team_1_dragon.webp";
 import dragon2 from"../assets/images/webp/team_2_dragon.webp";
 import dragon3 from "../assets/images/webp/team_3_dragon.webp";
-import side_circle from "../assets/images/png/side_circle_img.png"
+import side_circle from "../assets/images/webp/side_circle_img.webp"
 const Team = () => {
   return (
     <>

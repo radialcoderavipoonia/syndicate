@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Roadmap_dragon from "../assets/images/webp/roadmap_img.webp";
-import side_circle from "../assets/images/png/side_circle_img.png"
+import side_circle from "../assets/images/webp/side_circle_img.webp"
 const Roadmap = () => {
   return (
     <>

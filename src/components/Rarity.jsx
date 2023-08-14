@@ -3,7 +3,7 @@ import { Row } from "react-bootstrap";
 import { Col, Container } from "react-bootstrap/esm";
 import { RatCard } from "./common/Helper";
 import { ActiveCard } from "./common/Helper";
-import side_circle from "../assets/images/png/side_circle_img.png";
+import side_circle from "../assets/images/webp/side_circle_img.webp";
 const Rarity = () => {
   const [active, setactive] = useState(1);
   return (

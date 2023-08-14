@@ -26,11 +26,11 @@ const MyNav = () => {
           <div id="dis_none">
             <a href="#">
               <img
-                height={92}
-                width={92}
+                height={62}
+                width={62}
                 src={nav_logo}
                 alt="page logo"
-                className="w-100"
+                className="w-100 logo_size"
               />
             </a>
           </div>

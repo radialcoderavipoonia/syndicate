@@ -481,6 +481,10 @@
     width: 200px !important;
     height: 200px !important;
   }
+  .logo_size{
+    width: 92px;
+    height: 92px;
+  }
 }
 @media (min-width: 992px) {
   .h_w_dragon_footer {

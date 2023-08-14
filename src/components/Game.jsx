@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import game from "../assets/images/webp/game_sindicate.webp";
 import play_btn from "../assets/images/webp/play_btn.webp"
-import side_circle from "../assets/images/png/side_circle_img.png"
+import side_circle from "../assets/images/webp/side_circle_img.webp"
 const Game = () => {
   return (
     <>
