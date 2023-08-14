@@ -16,7 +16,7 @@ const Game = () => {
             </Col>
             <Col lg={6} md={11} data-aos="fade-left"data-aos-duration="2000">
                 <div className="game_img position-relative">
-                    <img src={game} alt="dragon" className="w-100" />
+                    <img src={game} alt="dragon" className="w-100 game_dragon h_sm_unset w_sm_unset game_dragon"height={262}width={296} />
                     <img className="game_play_btn position-absolute c_pointer" src={play_btn} alt="play_btn" />
                 </div>
             </Col>

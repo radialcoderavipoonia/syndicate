@@ -214,10 +214,10 @@
   background: #fff;
   max-width: 1320px;
 }
-  .h_w_dragon_footer {
-    width: 145px !important;
-    height: 145px !important;
-  }
+.h_w_dragon_footer {
+  width: 145px !important;
+  height: 145px !important;
+}
 /*--------------------------------------------------------- side circle  ----------------------------------------*/
 .bg_side_circle {
   width: 334px;
@@ -450,6 +450,40 @@
     bottom: -5%;
     left: -5%;
     width: 140px;
+  }
+  .ratiry_card_image {
+    max-width: 372 !important;
+    max-height: 295 !important;
+  }
+  .game_dragon {
+    max-width: 650 !important;
+    max-height: 607 !important;
+  }
+  .welcome_dragon {
+    max-width: 541px !important;
+    max-height: 541px !important;
+  }
+  .roadmap_dragon{
+    max-width: 514px !important;
+    max-height: 514px !important;
+  }
+  .team_card_image{
+    max-width:524px !important;
+    max-height:517px !important;
+  }
+  .royalty_dragon_1{max-width: 285 !important;
+  max-height: 285px !important;}
+  .royalty_dragon_2{
+    max-width: 246px !important;
+    max-height: 246 !important;
+  }
+  .royalty_dragon_3{max-width: 265 !important;
+  max-height: 285 !important;}
+  .h_sm_unset {
+    height: unset !important;
+  }
+  .w_sm_unset {
+    width: unset !important;
   }
 }
 @media (min-width: 768px) {

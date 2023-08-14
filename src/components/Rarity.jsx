@@ -88,8 +88,10 @@ const Rarity = () => {
                     <div className="rarity_card_border">
                       <div className="p-4 m-1">
                         <img
-                          className="w-100"
+                          className="w-100 ratiry_card_image w_sm_unset h_sm_unset"
                           src={Raritycard.imgcard}
+                          height={190}
+                          width={238}
                           alt="card_1"
                         />
                         <h2 className="fw-medium ff_poppins fs_lg text-white pt-4 mt-1 mb-0">

@@ -17,7 +17,7 @@ const WelcomeTo = () => {
               data-aos-duration="2000"
             >
               <div>
-                <img className="w-100" src={welcomeTo_dragon} alt="dragon" />
+                <img className="w-100 w_sm_unset h_sm_unset welcome_dragon" height={269} width={269} src={welcomeTo_dragon} alt="dragon" />
               </div>
             </Col>
             <Col lg={6} data-aos="fade-left" data-aos-duration="2000">

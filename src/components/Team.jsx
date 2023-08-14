@@ -16,7 +16,7 @@ const Team = () => {
             <Col lg={4} md={6} data-aos="fade-right"data-aos-duration="2000">
               <div className="position-relative">
                 <div className="team_card transition_3s">
-                  <img className="w-100" src={dragon1} alt="dragon" />
+                  <img className="w-100 w_sm_unset h_sm_unset team_card_image" height={361} width={296}  src={dragon1} alt="dragon" />
                 </div>
                 <div className="position-absolute on_image_text">
                   <h4 className="ff_agnostic fs_4xl fw-normal text-white text-center white_s_nowrap">
@@ -31,7 +31,7 @@ const Team = () => {
             <Col lg={4} md={6} data-aos="fade-up"data-aos-duration="2000">
               <div className="position-relative pt-3 pt-md-0">
                 <div className="team_card transition_3s">
-                  <img className="w-100" src={dragon2} alt="dragon" />
+                  <img className="w-100 w_sm_unset h_sm_unset team_card_image" height={361} width={296} src={dragon2} alt="dragon" />
                 </div>
                 <div className="position-absolute on_image_text">
                   <h4 className="ff_agnostic fs_4xl fw-normal text-white text-center white_s_nowrap">
@@ -46,7 +46,7 @@ const Team = () => {
             <Col lg={4} md={6} data-aos="fade-left"data-aos-duration="2000">
               <div className="position-relative pt-3 pt-lg-0">
                 <div className="team_card transition_3s">
-                  <img className="w-100" src={dragon3} alt="dragon" />
+                  <img className="w-100 w_sm_unset h_sm_unset team_card_image" height={361} width={296} src={dragon3} alt="dragon" />
                 </div>
                 <div className="position-absolute on_image_text">
                   <h4 className="ff_agnostic fs_4xl fw-normal text-white text-center white_s_nowrap">

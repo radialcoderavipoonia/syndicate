@@ -35,8 +35,8 @@ const Roadmap = () => {
               </ul>
             </Col>
           </Row>
-          <Row className="py-lg-5 pt-sm-3 pt-2 pt-3 mt-xxl-3 justify-content-lg-between justify-content-center">
-            <Col lg={6} data-aos="fade-right"data-aos-duration="2000" className="pb-xl-5">
+          <Row className="py-lg-5 pt-sm-3 pt-2 pt-3 mt-xxl-3 justify-content-lg-between justify-content-center align-items-end pb-xl-5">
+            <Col lg={6} data-aos="fade-right"data-aos-duration="2000">
               <h3 className="mb-2">Phase 3 (Funding Plans)</h3>
               <p className="ff_poppins fw-normal fs_md lh_174 mb-0 text-white pb-4">
                 Phase 3 will be activated as we find new homes for our Small <span className="d-lg-block"></span>
@@ -90,11 +90,13 @@ const Roadmap = () => {
                 - TBA - Stay tuned!
               </p>
             </Col>
-            <Col lg={6} xl={5} sm={10} xs={11} data-aos="fade-left"data-aos-duration="2200" className="pb-xl-5">
+            <Col lg={6} xl={5} sm={10} xs={11} data-aos="fade-left"data-aos-duration="2200">
               <img
                 src={Roadmap_dragon}
                 alt="dragon"
-                className="w-100 mt-3 mt-lg-0 position-relative z-1"
+                className="w-100 mt-3 mt-lg-0 position-relative z-1 w_sm_unset h_sm_unset roadmap_dragon"
+                height={269}
+                width={269}
               />
             </Col>
           </Row>
